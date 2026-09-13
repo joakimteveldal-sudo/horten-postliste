@@ -2,7 +2,7 @@
   "ok": true,
   "source": "https://www.horten.kommune.no",
   "mode": "overview",
-  "fetchedAt": "2026-09-13T21:10:28.831Z",
+  "fetchedAt": "2026-09-13T21:13:31.742Z",
   "since": "2026-09-10",
   "startPage": 1,
   "pagesRead": 2,
@@ -34,29 +34,163 @@
       "detailsUrl": null,
       "canResolveDocumentDirectly": false,
       "documentLookupUrl": null,
-      "pdfStatus": "document_identifier_not_available",
-      "pdfAvailable": null,
-      "pdfUrl": null,
+      "pdfStatus": "available",
+      "pdfAvailable": true,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
       "caseLookupAttempted": true,
-      "caseLookupStatus": "lookup_failed",
-      "case": null,
-      "documents": [],
-      "documentCount": 0,
-      "documentLookupAttempted": false,
-      "documentLookupStatus": "not_applicable",
-      "document": null,
-      "caseLookupError": "HTTP Error 405: Method Not Allowed"
+      "caseLookupStatus": "resolved",
+      "case": {
+        "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038491!OIZhA5",
+        "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+        "props": {
+          "dato": "10.09.2026",
+          "sakstype": "Generell sak",
+          "saksbehandler": "Rita Røer",
+          "status": "Under behandling"
+        },
+        "statusCode": 200,
+        "messages": [
+          {
+            "text": "Det gikk fint."
+          }
+        ]
+      },
+      "documents": [
+        {
+          "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100127907!TB2qFH",
+          "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+          "type": "AsyncDocument",
+          "properties": {
+            "DokumentID": "2026/56638",
+            "Dato": "07.09.2026",
+            "Dokumenttype": "Inngående dokument",
+            "Avsender": "Paulsen Eiendom As"
+          },
+          "lookup": {
+            "ok": true,
+            "source": "https://www.horten.kommune.no",
+            "mode": "document",
+            "fetchedAt": "2026-09-13T21:13:35.975Z",
+            "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100127907!TB2qFH",
+            "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+            "documentStatus": "public_files_found",
+            "hortenStatusCode": 200,
+            "hortenMessages": [
+              {
+                "text": "Det gikk fint."
+              }
+            ],
+            "metadata": {
+              "FRIENDLY_ID": "2026/56638",
+              "DATE": "07.09.2026",
+              "CASE_DOCUMENT_FRIENDLY_ID": "2026/17235-1",
+              "DEPARTMENT": "Eiendom"
+            },
+            "textFields": {
+              "Brev-/journaldato": "07.09.2026",
+              "Avsender": "Paulsen Eiendom As"
+            },
+            "publicFilesAvailable": true,
+            "fileCount": 1,
+            "files": [
+              {
+                "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx",
+                "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 (pdf, 1,5MB)",
+                "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+                "type": "Text",
+                "isPdf": true
+              }
+            ],
+            "pdfAvailable": true,
+            "pdfCount": 1,
+            "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+            "pdfFiles": [
+              {
+                "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx",
+                "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 (pdf, 1,5MB)",
+                "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+                "type": "Text",
+                "isPdf": true
+              }
+            ]
+          },
+          "lookupStatus": "public_files_found",
+          "publicFilesAvailable": true,
+          "pdfAvailable": true,
+          "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+          "pdfFiles": [
+            {
+              "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx",
+              "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 (pdf, 1,5MB)",
+              "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+              "type": "Text",
+              "isPdf": true
+            }
+          ]
+        }
+      ],
+      "documentCount": 1,
+      "documentLookupAttempted": true,
+      "documentLookupStatus": "completed",
+      "document": {
+        "ok": true,
+        "source": "https://www.horten.kommune.no",
+        "mode": "document",
+        "fetchedAt": "2026-09-13T21:13:35.975Z",
+        "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100127907!TB2qFH",
+        "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+        "documentStatus": "public_files_found",
+        "hortenStatusCode": 200,
+        "hortenMessages": [
+          {
+            "text": "Det gikk fint."
+          }
+        ],
+        "metadata": {
+          "FRIENDLY_ID": "2026/56638",
+          "DATE": "07.09.2026",
+          "CASE_DOCUMENT_FRIENDLY_ID": "2026/17235-1",
+          "DEPARTMENT": "Eiendom"
+        },
+        "textFields": {
+          "Brev-/journaldato": "07.09.2026",
+          "Avsender": "Paulsen Eiendom As"
+        },
+        "publicFilesAvailable": true,
+        "fileCount": 1,
+        "files": [
+          {
+            "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx",
+            "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 (pdf, 1,5MB)",
+            "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+            "type": "Text",
+            "isPdf": true
+          }
+        ],
+        "pdfAvailable": true,
+        "pdfCount": 1,
+        "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+        "pdfFiles": [
+          {
+            "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx",
+            "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 (pdf, 1,5MB)",
+            "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-268262_1_A!d-1100127907!r3H5Fx?pid=24",
+            "type": "Text",
+            "isPdf": true
+          }
+        ]
+      }
     }
   ],
   "enrichment": {
-    "generatedAt": "2026-09-13T21:10:30.515557+00:00",
+    "generatedAt": "2026-09-13T21:13:35.982988+00:00",
     "casesChecked": 1,
-    "casesResolved": 0,
-    "caseLookupFailures": 1,
-    "documentsChecked": 0,
-    "publicFilesFound": 0,
-    "pdfsAvailable": 0,
+    "casesResolved": 1,
+    "caseLookupFailures": 0,
+    "documentsChecked": 1,
+    "publicFilesFound": 1,
+    "pdfsAvailable": 1,
     "documentLookupFailures": 0,
-    "note": "a- case entries are resolved through Horten's public /sak/{identifier} endpoint, then each published d- document is resolved to public files/PDFs."
+    "note": "a- case entries are resolved through Horten's public GET //sak/{identifier} endpoint, then each published d- document is resolved to public files/PDFs."
   }
 }
