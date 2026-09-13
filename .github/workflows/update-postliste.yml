@@ -1,0 +1,72 @@
+name: Update Horten postliste
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 4 * * 1-5"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fetch latest postliste
+        shell: bash
+        run: |
+          mkdir -p data
+
+          SINCE=$(date -u -d "3 days ago" +%F)
+
+          echo "Fetching Horten postliste since $SINCE"
+
+          curl --fail \
+            --silent \
+            --show-error \
+            --location \
+            "https://horten-postliste.joakim-teveldal.workers.dev/overview?since=${SINCE}&maxPages=20" \
+            -o data/latest.json
+
+          echo "Downloaded:"
+          wc -c data/latest.json
+
+          cat data/latest.json | head -c 500
+          echo
+
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+          import json
+
+          with open("data/latest.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          if not data.get("ok"):
+              raise SystemExit("Worker returned ok=false")
+
+          print("OK")
+          print("Items:", data.get("count"))
+          print("Pages:", data.get("pagesRead"))
+          print("Fetched:", data.get("fetchedAt"))
+          PY
+
+      - name: Commit updated data
+        shell: bash
+        run: |
+          git config user.name "horten-postliste-bot"
+          git config user.email "horten-postliste-bot@users.noreply.github.com"
+
+          git add data/latest.json
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update Horten postliste"
+          git push
