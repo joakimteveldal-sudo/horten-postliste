@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "source": "https://www.horten.kommune.no",
+  "mode": "overview",
+  "fetchedAt": "2026-09-13T20:11:23.555Z",
+  "since": "2026-09-10",
+  "startPage": 1,
+  "pagesRead": 2,
+  "lastPageRead": 2,
+  "count": 1,
+  "totalAvailable": 122333,
+  "stoppedBecauseOld": true,
+  "hasMore": false,
+  "nextPage": null,
+  "documentLookup": {
+    "route": "/document?id=<d-identifier>",
+    "note": "Only document-level identifiers beginning with d- can be resolved directly."
+  },
+  "items": [
+    {
+      "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038491!OIZhA5",
+      "parentIdentifier": null,
+      "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+      "type": "Generell sak",
+      "status": "B",
+      "visibility": "1",
+      "date": "10.09.2026",
+      "isoDate": "2026-09-10",
+      "caseNumber": "2026/17235",
+      "documentID": null,
+      "documentType": "Arkivsak",
+      "sender": null,
+      "navigateUrl": "https://www.horten.kommune.no/#",
+      "detailsUrl": null,
+      "canResolveDocumentDirectly": false,
+      "documentLookupUrl": null,
+      "pdfStatus": "document_identifier_not_available",
+      "pdfAvailable": null,
+      "pdfUrl": null
+    }
+  ]
+}
