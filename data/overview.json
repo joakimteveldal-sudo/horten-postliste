@@ -36,18 +36,7 @@
       "documentLookupUrl": null,
       "pdfStatus": "document_identifier_not_available",
       "pdfAvailable": null,
-      "pdfUrl": null,
-      "documentLookupAttempted": false,
-      "documentLookupStatus": "not_applicable",
-      "document": null
+      "pdfUrl": null
     }
-  ],
-  "enrichment": {
-    "generatedAt": "2026-09-13T20:18:44.239858+00:00",
-    "documentsChecked": 0,
-    "publicFilesFound": 0,
-    "pdfsAvailable": 0,
-    "lookupFailures": 0,
-    "note": "Only entries with a direct d- document identifier are resolvable. a- case identifiers still require separate case-to-document resolution."
-  }
+  ]
 }
