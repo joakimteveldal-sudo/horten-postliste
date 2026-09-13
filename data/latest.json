@@ -2,7 +2,7 @@
   "ok": true,
   "source": "https://www.horten.kommune.no",
   "mode": "overview",
-  "fetchedAt": "2026-09-13T20:18:44.135Z",
+  "fetchedAt": "2026-09-13T21:10:28.831Z",
   "since": "2026-09-10",
   "startPage": 1,
   "pagesRead": 2,
@@ -37,17 +37,26 @@
       "pdfStatus": "document_identifier_not_available",
       "pdfAvailable": null,
       "pdfUrl": null,
+      "caseLookupAttempted": true,
+      "caseLookupStatus": "lookup_failed",
+      "case": null,
+      "documents": [],
+      "documentCount": 0,
       "documentLookupAttempted": false,
       "documentLookupStatus": "not_applicable",
-      "document": null
+      "document": null,
+      "caseLookupError": "HTTP Error 405: Method Not Allowed"
     }
   ],
   "enrichment": {
-    "generatedAt": "2026-09-13T20:18:44.239858+00:00",
+    "generatedAt": "2026-09-13T21:10:30.515557+00:00",
+    "casesChecked": 1,
+    "casesResolved": 0,
+    "caseLookupFailures": 1,
     "documentsChecked": 0,
     "publicFilesFound": 0,
     "pdfsAvailable": 0,
-    "lookupFailures": 0,
-    "note": "Only entries with a direct d- document identifier are resolvable. a- case identifiers still require separate case-to-document resolution."
+    "documentLookupFailures": 0,
+    "note": "a- case entries are resolved through Horten's public /sak/{identifier} endpoint, then each published d- document is resolved to public files/PDFs."
   }
 }
