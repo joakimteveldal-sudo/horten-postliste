@@ -17,52 +17,146 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch latest postliste
+      - name: Fetch journal pages gently
         shell: bash
         env:
-          # Hard safety cap: never ask the Worker for more than 8 overview pages
-          # in one run. The Worker also filters by the 3-day SINCE window.
-          MAX_OVERVIEW_PAGES: "8"
+          # Keep total journal-page pressure at or below the old workflow's 8-page cap.
+          HEAD_PAGES: "4"
+          CATCHUP_PAGES: "4"
+          LOOKBACK_DAYS: "30"
         run: |
           set -euo pipefail
           mkdir -p data
 
-          SINCE=$(date -u -d "3 days ago" +%F)
-          echo "Fetching Horten postliste since $SINCE (max ${MAX_OVERVIEW_PAGES} pages)"
+          SINCE=$(date -u -d "${LOOKBACK_DAYS} days ago" +%F)
+          CATCHUP_START=$(python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("data/state.json")
+          if p.exists():
+              try:
+                  state = json.loads(p.read_text(encoding="utf-8"))
+                  print(max(5, int(state.get("nextCatchupPage", 5))))
+              except Exception:
+                  print(5)
+          else:
+              print(5)
+          PY
+          )
 
-          curl --fail \
-            --silent \
-            --show-error \
-            --location \
-            --connect-timeout 10 \
-            --max-time 90 \
-            --retry 2 \
-            --retry-delay 3 \
-            --retry-all-errors \
-            -A "horten-postliste-github-action/3.0 (polite public-records reader)" \
-            "https://horten-postliste.joakim-teveldal.workers.dev/overview?since=${SINCE}&maxPages=${MAX_OVERVIEW_PAGES}" \
-            -o data/overview.json
+          echo "Fetching newest journal pages 1-${HEAD_PAGES} and catch-up from page ${CATCHUP_START}; since ${SINCE}"
+
+          fetch_overview() {
+            local start_page="$1"
+            local max_pages="$2"
+            local outfile="$3"
+            curl --fail \
+              --silent \
+              --show-error \
+              --location \
+              --connect-timeout 10 \
+              --max-time 90 \
+              --retry 2 \
+              --retry-delay 5 \
+              --retry-all-errors \
+              -A "horten-postliste-github-action/4.0 (polite public-records reader)" \
+              "https://horten-postliste.joakim-teveldal.workers.dev/overview?since=${SINCE}&startPage=${start_page}&maxPages=${max_pages}" \
+              -o "$outfile"
+          }
+
+          fetch_overview 1 "${HEAD_PAGES}" data/overview-head.json
+
+          # A second small window walks a large backlog forward over several days.
+          # Total overview pages per run remain capped at HEAD_PAGES + CATCHUP_PAGES (=8).
+          if [ "${CATCHUP_START}" -le 500 ]; then
+            fetch_overview "${CATCHUP_START}" "${CATCHUP_PAGES}" data/overview-catchup.json
+          else
+            cp data/overview-head.json data/overview-catchup.json
+          fi
 
           python - <<'PY'
           import json
+          from datetime import datetime, timezone
           from pathlib import Path
 
-          data = json.loads(Path("data/overview.json").read_text(encoding="utf-8"))
-          if not data.get("ok"):
-              raise SystemExit("Worker overview returned ok=false")
+          head = json.loads(Path("data/overview-head.json").read_text(encoding="utf-8"))
+          catch = json.loads(Path("data/overview-catchup.json").read_text(encoding="utf-8"))
+          if not head.get("ok"):
+              raise SystemExit("Worker head overview returned ok=false")
+          if not catch.get("ok"):
+              raise SystemExit("Worker catch-up overview returned ok=false")
+
+          merged = []
+          seen = set()
+          for source in (head.get("items") or [], catch.get("items") or []):
+              for item in source:
+                  ident = item.get("identifier")
+                  key = ident or (item.get("documentID"), item.get("title"), item.get("date"))
+                  if key in seen:
+                      continue
+                  seen.add(key)
+                  merged.append(item)
+
+          state_path = Path("data/state.json")
+          try:
+              state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {}
+          except Exception:
+              state = {}
+
+          catch_start = int(catch.get("startPage") or state.get("nextCatchupPage") or 5)
+          if catch.get("hasMore") and not catch.get("stoppedBecauseOld"):
+              next_catchup = int(catch.get("nextPage") or (catch_start + int(catch.get("pagesRead") or 0)))
+              next_catchup = max(5, next_catchup)
+          else:
+              next_catchup = 5
+
+          state.update({
+              "updatedAt": datetime.now(timezone.utc).isoformat(),
+              "since": head.get("since"),
+              "nextCatchupPage": next_catchup,
+              "lastHeadPagesRead": head.get("pagesRead"),
+              "lastCatchupPagesRead": catch.get("pagesRead"),
+          })
+          state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          overview = dict(head)
+          overview["items"] = merged
+          overview["count"] = len(merged)
+          overview["pagesRead"] = int(head.get("pagesRead") or 0) + int(catch.get("pagesRead") or 0)
+          overview["overviewWindows"] = {
+              "head": {
+                  "startPage": head.get("startPage"),
+                  "pagesRead": head.get("pagesRead"),
+                  "hasMore": head.get("hasMore"),
+                  "nextPage": head.get("nextPage"),
+              },
+              "catchup": {
+                  "startPage": catch.get("startPage"),
+                  "pagesRead": catch.get("pagesRead"),
+                  "hasMore": catch.get("hasMore"),
+                  "nextPage": catch.get("nextPage"),
+              },
+          }
+          overview["hasMore"] = bool(head.get("hasMore") or catch.get("hasMore"))
+          overview["stoppedBecauseOld"] = bool(catch.get("stoppedBecauseOld"))
+          Path("data/overview.json").write_text(json.dumps(overview, ensure_ascii=False, indent=2), encoding="utf-8")
+
           print("Overview OK")
-          print("Items:", data.get("count"))
-          print("Pages:", data.get("pagesRead"))
+          print("Unique items in this run:", len(merged))
+          print("Total journal pages read:", overview["pagesRead"])
+          print("Next catch-up page:", next_catchup)
           PY
 
-      - name: Resolve cases, documents and PDFs
+      - name: Queue, cache and resolve a small batch
         shell: bash
         env:
-          # Safety limits for direct/indirect requests that can reach Horten.
-          MAX_ITEMS_PER_RUN: "60"
-          MAX_DOCUMENTS_PER_CASE: "12"
-          MAX_DOCUMENT_LOOKUPS_PER_RUN: "60"
-          REQUEST_DELAY_SECONDS: "0.40"
+          # This is a hard budget for requests that can ultimately reach Horten.
+          # It replaces the old 60-document lookup cap and prevents bursty catch-up.
+          MAX_POTENTIAL_HORTEN_REQUESTS_PER_RUN: "20"
+          MAX_DOCUMENTS_PER_CASE: "4"
+          REQUEST_DELAY_SECONDS: "1.25"
+          MAX_PENDING_ITEMS: "3000"
+          MAX_LATEST_ITEMS: "400"
         run: |
           set -euo pipefail
 
@@ -71,6 +165,7 @@ jobs:
           import json
           import os
           import time
+          import urllib.error
           import urllib.parse
           import urllib.request
           from datetime import datetime, timezone
@@ -81,32 +176,109 @@ jobs:
           API = HORTEN + "/api/presentation/v2/nye-innsyn"
           WORKER = "https://horten-postliste.joakim-teveldal.workers.dev"
 
-          MAX_ITEMS = max(1, int(os.environ.get("MAX_ITEMS_PER_RUN", "60")))
-          MAX_DOCS_PER_CASE = max(1, int(os.environ.get("MAX_DOCUMENTS_PER_CASE", "12")))
-          MAX_DOC_LOOKUPS = max(1, int(os.environ.get("MAX_DOCUMENT_LOOKUPS_PER_RUN", "60")))
-          REQUEST_DELAY = max(0.0, float(os.environ.get("REQUEST_DELAY_SECONDS", "0.40")))
+          REQUEST_BUDGET_MAX = max(1, int(os.environ.get("MAX_POTENTIAL_HORTEN_REQUESTS_PER_RUN", "20")))
+          MAX_DOCS_PER_CASE = max(1, int(os.environ.get("MAX_DOCUMENTS_PER_CASE", "4")))
+          REQUEST_DELAY = max(0.0, float(os.environ.get("REQUEST_DELAY_SECONDS", "1.25")))
+          MAX_PENDING = max(100, int(os.environ.get("MAX_PENDING_ITEMS", "3000")))
+          MAX_LATEST = max(50, int(os.environ.get("MAX_LATEST_ITEMS", "400")))
 
-          data = json.loads(Path("data/overview.json").read_text(encoding="utf-8"))
-          all_items = data.get("items") or []
-          items = all_items[:MAX_ITEMS]
-          data["items"] = items
-          data["countBeforeSafetyCap"] = len(all_items)
-          data["count"] = len(items)
-          data["safetyCapTruncatedItems"] = max(0, len(all_items) - len(items))
+          now_iso = datetime.now(timezone.utc).isoformat()
+          overview = json.loads(Path("data/overview.json").read_text(encoding="utf-8"))
+
+          def load_json(path, default):
+              p = Path(path)
+              if not p.exists():
+                  return default
+              try:
+                  return json.loads(p.read_text(encoding="utf-8"))
+              except Exception:
+                  return default
+
+          pending = load_json("data/pending.json", [])
+          case_cache = load_json("data/case-cache.json", {})
+          doc_cache = load_json("data/document-cache.json", {})
+
+          # Keep only sane structures if a file was edited manually.
+          if not isinstance(pending, list): pending = []
+          if not isinstance(case_cache, dict): case_cache = {}
+          if not isinstance(doc_cache, dict): doc_cache = {}
+
+          pending_by_id = {x.get("identifier"): x for x in pending if x.get("identifier")}
+          for item in overview.get("items") or []:
+              ident = item.get("identifier")
+              if not ident:
+                  continue
+              if ident not in pending_by_id:
+                  queued = dict(item)
+                  queued["firstSeenAt"] = now_iso
+                  queued["queueStatus"] = "pending"
+                  pending_by_id[ident] = queued
+              else:
+                  # Refresh public metadata but retain queue bookkeeping.
+                  old = pending_by_id[ident]
+                  keep = {k: old.get(k) for k in ("firstSeenAt", "queueStatus", "lastAttemptAt", "lastError") if k in old}
+                  old.update(item)
+                  old.update(keep)
+
+          pending = list(pending_by_id.values())
+
+          priority_terms = {
+              "klage": 10, "tilsyn": 10, "lovlighet": 10, "lovlighetskontroll": 10,
+              "avvik": 9, "pålegg": 9, "varsel": 8, "varsling": 8, "innsyn": 7,
+              "legevakt": 10, "sykehjem": 9, "barnevern": 10, "nav": 8,
+              "helse": 7, "omsorg": 7, "rus": 8, "psykisk": 8,
+              "byggesak": 7, "dispensasjon": 7, "regulering": 6, "eiendom": 5,
+              "erstatning": 8, "søksmål": 9, "politianmeld": 10, "trus": 9, "vold": 10,
+              "skadeverk": 8, "konkurs": 9, "anskaff": 6, "million": 5,
+              "vedtak": 4, "statsforvalter": 9, "arbeidstilsyn": 9, "mattilsyn": 8,
+          }
+          low_terms = {"innkalling": -4, "møteprotokoll": -3, "referat": -2, "sakskart": -3}
+
+          def score(item):
+              text = " ".join(str(item.get(k) or "") for k in ("title", "sender", "documentType", "type")).lower()
+              s = 0
+              for term, pts in priority_terms.items():
+                  if term in text: s += pts
+              for term, pts in low_terms.items():
+                  if term in text: s += pts
+              # Older queued items slowly rise so nothing can starve forever.
+              first_seen = item.get("firstSeenAt") or now_iso
+              try:
+                  age_days = max(0, (datetime.now(timezone.utc) - datetime.fromisoformat(first_seen.replace("Z", "+00:00"))).days)
+              except Exception:
+                  age_days = 0
+              s += min(age_days, 14)
+              return s
+
+          pending.sort(key=lambda x: (score(x), x.get("isoDate") or x.get("date") or ""), reverse=True)
+          pending = pending[:MAX_PENDING]
 
           jar = http.cookiejar.CookieJar()
           opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
-          last_horten_request_at = 0.0
+          request_budget = REQUEST_BUDGET_MAX
+          last_request_at = 0.0
+          session_initialized = False
+          stop_for_backoff = False
+          processed_this_run = []
+          cache_hits = 0
+          remote_case_requests = 0
+          remote_document_requests = 0
+          lookup_failures = 0
 
-          def polite_wait():
-              global last_horten_request_at
-              if REQUEST_DELAY <= 0:
-                  return
+          class BudgetExhausted(Exception): pass
+          class BackoffTriggered(Exception): pass
+
+          def wait_and_spend():
+              nonlocal_vars = None
+              global request_budget, last_request_at
+              if request_budget <= 0:
+                  raise BudgetExhausted()
               now = time.monotonic()
-              remaining = REQUEST_DELAY - (now - last_horten_request_at)
+              remaining = REQUEST_DELAY - (now - last_request_at)
               if remaining > 0:
                   time.sleep(remaining)
-              last_horten_request_at = time.monotonic()
+              request_budget -= 1
+              last_request_at = time.monotonic()
 
           def browser_headers():
               return {
@@ -114,35 +286,43 @@ jobs:
                   "Devicetype": "desktop",
                   "Origin": HORTEN,
                   "Referer": POSTLISTE_PAGE,
-                  "User-Agent": "horten-postliste-github-action/3.0 (polite public-records reader)",
+                  "User-Agent": "horten-postliste-github-action/4.0 (polite public-records reader)",
                   "X-Anti-Csrf": "1",
               }
 
-          def init_horten_session():
-              polite_wait()
-              req = urllib.request.Request(
-                  POSTLISTE_PAGE,
-                  headers={"User-Agent": browser_headers()["User-Agent"]},
-              )
-              with opener.open(req, timeout=30) as response:
-                  response.read()
+          def open_json(req, timeout=30):
+              global stop_for_backoff
+              try:
+                  with opener.open(req, timeout=timeout) as response:
+                      return json.loads(response.read().decode("utf-8"))
+              except urllib.error.HTTPError as exc:
+                  if exc.code in (429, 503):
+                      stop_for_backoff = True
+                      raise BackoffTriggered(f"HTTP {exc.code}: backing off for remainder of run")
+                  raise
 
-          def horten_case_get(identifier):
-              encoded = urllib.parse.quote(identifier, safe="!_-.")
-              url = API + "//sak/" + encoded
-              polite_wait()
-              req = urllib.request.Request(url, headers=browser_headers(), method="GET")
-              with opener.open(req, timeout=30) as response:
-                  return json.loads(response.read().decode("utf-8"))
+          def init_session():
+              global session_initialized
+              if session_initialized:
+                  return
+              wait_and_spend()
+              req = urllib.request.Request(POSTLISTE_PAGE, headers={"User-Agent": browser_headers()["User-Agent"]})
+              try:
+                  with opener.open(req, timeout=30) as response:
+                      response.read()
+              except urllib.error.HTTPError as exc:
+                  if exc.code in (429, 503):
+                      raise BackoffTriggered(f"HTTP {exc.code}: backing off for remainder of run")
+                  raise
+              session_initialized = True
 
           def property_map(block):
               out = {}
               for child in block.get("b") or []:
                   if child.get("type") == "PropertyList":
                       for prop in child.get("b") or []:
-                          title = prop.get("title")
-                          if title:
-                              out[title] = prop.get("text")
+                          if prop.get("title"):
+                              out[prop["title"]] = prop.get("text")
               return out
 
           def extract_case_documents(payload):
@@ -151,192 +331,225 @@ jobs:
               for block in body.get("b") or []:
                   if block.get("key") == "DOCUMENTS" or block.get("type") == "DocumentList":
                       for doc in block.get("b") or []:
-                          identifier = doc.get("identifier")
-                          if identifier and identifier.startswith("d-"):
+                          ident = doc.get("identifier")
+                          if ident and ident.startswith("d-"):
                               docs.append({
-                                  "identifier": identifier,
+                                  "identifier": ident,
                                   "title": doc.get("title"),
                                   "type": doc.get("type"),
                                   "properties": property_map(doc),
                               })
               return body, docs[:MAX_DOCS_PER_CASE], max(0, len(docs) - MAX_DOCS_PER_CASE)
 
-          def resolve_document(identifier):
-              polite_wait()
+          def get_case(identifier):
+              global cache_hits, remote_case_requests
+              if identifier in case_cache:
+                  cache_hits += 1
+                  return case_cache[identifier]["payload"], True
+              init_session()
+              wait_and_spend()
+              encoded = urllib.parse.quote(identifier, safe="!_-.")
+              req = urllib.request.Request(API + "//sak/" + encoded, headers=browser_headers(), method="GET")
+              payload = open_json(req)
+              case_cache[identifier] = {"fetchedAt": now_iso, "payload": payload}
+              remote_case_requests += 1
+              return payload, False
+
+          def get_document(identifier):
+              global cache_hits, remote_document_requests
+              if identifier in doc_cache:
+                  cache_hits += 1
+                  return doc_cache[identifier]["payload"], True
+              wait_and_spend()
               query = urllib.parse.urlencode({"id": identifier})
               req = urllib.request.Request(
                   f"{WORKER}/document?{query}",
-                  headers={"User-Agent": "horten-postliste-github-action/3.0 (polite public-records reader)"},
+                  headers={"User-Agent": "horten-postliste-github-action/4.0 (polite public-records reader)"},
               )
-              with urllib.request.urlopen(req, timeout=30) as response:
-                  return json.loads(response.read().decode("utf-8"))
+              payload = open_json(req)
+              doc_cache[identifier] = {"fetchedAt": now_iso, "payload": payload}
+              remote_document_requests += 1
+              return payload, False
 
-          init_horten_session()
+          remaining = []
+          for item in pending:
+              if request_budget <= 0 or stop_for_backoff:
+                  remaining.append(item)
+                  continue
 
-          cases_checked = 0
-          cases_resolved = 0
-          case_lookup_failures = 0
-          documents_checked = 0
-          public_files_found = 0
-          pdfs_available = 0
-          document_lookup_failures = 0
-          documents_skipped_case_cap = 0
-          documents_skipped_run_cap = 0
-
-          for item in items:
               identifier = item.get("identifier") or ""
-              item["caseLookupAttempted"] = False
-              item["caseLookupStatus"] = "not_applicable"
-              item["case"] = None
-              item["documents"] = []
-              item["documentCount"] = 0
-              item["documentLookupAttempted"] = False
-              item["documentLookupStatus"] = "not_applicable"
-              item["document"] = None
-              document_refs = []
+              working = dict(item)
+              working["lastAttemptAt"] = now_iso
+              working["priorityScore"] = score(item)
+              working["caseLookupAttempted"] = False
+              working["caseLookupStatus"] = "not_applicable"
+              working["case"] = None
+              working["documents"] = []
+              working["documentLookupAttempted"] = False
+              working["documentLookupStatus"] = "not_applicable"
+              working["pdfAvailable"] = None
+              working["pdfUrl"] = None
+              complete = False
 
-              if identifier.startswith("a-"):
-                  item["caseLookupAttempted"] = True
-                  item["caseLookupStatus"] = "pending"
-                  cases_checked += 1
-                  try:
-                      case_payload = horten_case_get(identifier)
-                      body, document_refs, skipped_for_case = extract_case_documents(case_payload)
-                      documents_skipped_case_cap += skipped_for_case
-                      item["documentsSkippedByCaseCap"] = skipped_for_case
-                      item["case"] = {
+              try:
+                  refs = []
+                  if identifier.startswith("a-"):
+                      working["caseLookupAttempted"] = True
+                      payload, cached = get_case(identifier)
+                      body, refs, skipped = extract_case_documents(payload)
+                      working["caseLookupStatus"] = "resolved_cached" if cached else "resolved"
+                      working["documentsSkippedByCaseCap"] = skipped
+                      working["case"] = {
                           "identifier": body.get("identifier"),
                           "title": body.get("title"),
                           "props": body.get("props") or {},
-                          "statusCode": case_payload.get("statusCode"),
-                          "messages": case_payload.get("messages") or [],
+                          "statusCode": payload.get("statusCode"),
+                          "messages": payload.get("messages") or [],
                       }
-                      item["caseLookupStatus"] = "resolved"
-                      cases_resolved += 1
-                  except Exception as exc:
-                      case_lookup_failures += 1
-                      item["caseLookupStatus"] = "lookup_failed"
-                      item["caseLookupError"] = str(exc)
+                      if not refs:
+                          working["documentLookupStatus"] = "no_published_documents"
+                          working["pdfAvailable"] = False
+                          working["pdfStatus"] = "no_published_documents"
+                          complete = True
+                  elif identifier.startswith("d-"):
+                      refs = [{"identifier": identifier, "title": item.get("title"), "type": "DirectDocument", "properties": {}}]
+                  else:
+                      # Unknown identifier types require no further Horten request; keep metadata only.
+                      working["documentLookupStatus"] = "unsupported_identifier"
+                      complete = True
 
-              elif identifier.startswith("d-"):
-                  document_refs = [{
-                      "identifier": identifier,
-                      "title": item.get("title"),
-                      "type": "DirectDocument",
-                      "properties": {},
-                  }]
+                  all_explicit = True
+                  if refs:
+                      working["documentLookupAttempted"] = True
+                      for ref in refs:
+                          doc_id = ref.get("identifier")
+                          enriched = dict(ref)
+                          try:
+                              payload, cached = get_document(doc_id)
+                              status = payload.get("documentStatus") or ("ok" if payload.get("ok") else "worker_returned_not_ok")
+                              enriched["lookup"] = payload
+                              enriched["lookupStatus"] = status
+                              enriched["lookupFromCache"] = cached
+                              enriched["publicFilesAvailable"] = bool(payload.get("publicFilesAvailable"))
+                              enriched["pdfAvailable"] = bool(payload.get("pdfAvailable"))
+                              enriched["pdfUrl"] = payload.get("pdfUrl")
+                              enriched["pdfFiles"] = payload.get("pdfFiles") or []
+                              if status in (None, "pending", "lookup_failed", "worker_returned_not_ok"):
+                                  all_explicit = False
+                          except BudgetExhausted:
+                              enriched["lookupStatus"] = "pending_request_budget"
+                              all_explicit = False
+                          working["documents"].append(enriched)
 
-              item["documentCount"] = len(document_refs)
+                      available = [d for d in working["documents"] if d.get("pdfAvailable")]
+                      working["pdfAvailable"] = bool(available) if all_explicit else None
+                      working["pdfUrl"] = available[0].get("pdfUrl") if available else None
+                      working["pdfStatus"] = "available" if available else ("not_available" if all_explicit else "pending")
+                      working["documentLookupStatus"] = "completed" if all_explicit else "pending"
+                      complete = all_explicit
 
-              for ref in document_refs:
-                  doc_id = ref.get("identifier")
-                  if not doc_id:
-                      continue
-                  if documents_checked >= MAX_DOC_LOOKUPS:
-                      documents_skipped_run_cap += 1
-                      item["documentLookupStatus"] = "safety_cap_reached"
-                      skipped = dict(ref)
-                      skipped["lookupStatus"] = "skipped_by_run_safety_cap"
-                      item["documents"].append(skipped)
-                      continue
+              except BudgetExhausted:
+                  working["queueStatus"] = "pending_request_budget"
+              except BackoffTriggered as exc:
+                  working["queueStatus"] = "pending_backoff"
+                  working["lastError"] = str(exc)
+                  stop_for_backoff = True
+              except Exception as exc:
+                  lookup_failures += 1
+                  working["queueStatus"] = "pending_after_error"
+                  working["lastError"] = str(exc)
 
-                  item["documentLookupAttempted"] = True
-                  item["documentLookupStatus"] = "pending"
-                  documents_checked += 1
-                  enriched = dict(ref)
-                  try:
-                      payload = resolve_document(doc_id)
-                      enriched["lookup"] = payload
-                      enriched["lookupStatus"] = payload.get("documentStatus") or ("ok" if payload.get("ok") else "worker_returned_not_ok")
-                      enriched["publicFilesAvailable"] = bool(payload.get("publicFilesAvailable"))
-                      enriched["pdfAvailable"] = bool(payload.get("pdfAvailable"))
-                      enriched["pdfUrl"] = payload.get("pdfUrl")
-                      enriched["pdfFiles"] = payload.get("pdfFiles") or []
-                      if enriched["publicFilesAvailable"]:
-                          public_files_found += 1
-                      if enriched["pdfAvailable"]:
-                          pdfs_available += 1
-                  except Exception as exc:
-                      document_lookup_failures += 1
-                      enriched["lookupStatus"] = "lookup_failed"
-                      enriched["lookupError"] = str(exc)
-                      enriched["publicFilesAvailable"] = None
-                      enriched["pdfAvailable"] = None
-                      enriched["pdfUrl"] = None
-                      enriched["pdfFiles"] = []
-                  item["documents"].append(enriched)
+              if complete:
+                  working["queueStatus"] = "resolved"
+                  working["resolvedAt"] = now_iso
+                  processed_this_run.append(working)
+              else:
+                  if working.get("queueStatus") == "pending":
+                      working["queueStatus"] = "pending"
+                  remaining.append(working)
 
-              if item["documents"]:
-                  if item.get("documentLookupStatus") != "safety_cap_reached":
-                      item["documentLookupStatus"] = "completed"
-                  looked_up = [d for d in item["documents"] if d.get("lookup")]
-                  item["document"] = looked_up[0].get("lookup") if looked_up else None
-                  available = [d for d in item["documents"] if d.get("pdfAvailable")]
-                  item["pdfAvailable"] = bool(available)
-                  item["pdfUrl"] = available[0].get("pdfUrl") if available else None
-                  item["pdfStatus"] = "available" if available else "not_available"
-              elif identifier.startswith("a-") and item["caseLookupStatus"] == "resolved":
-                  item["documentLookupStatus"] = "no_published_documents"
-                  item["pdfAvailable"] = False
-                  item["pdfUrl"] = None
-                  item["pdfStatus"] = "no_published_documents"
+          # Preserve any not-yet-processed queue entries, strongest candidates first.
+          remaining.sort(key=lambda x: (score(x), x.get("isoDate") or x.get("date") or ""), reverse=True)
+          remaining = remaining[:MAX_PENDING]
 
-          data["enrichment"] = {
-              "generatedAt": datetime.now(timezone.utc).isoformat(),
-              "casesChecked": cases_checked,
-              "casesResolved": cases_resolved,
-              "caseLookupFailures": case_lookup_failures,
-              "documentsChecked": documents_checked,
-              "publicFilesFound": public_files_found,
-              "pdfsAvailable": pdfs_available,
-              "documentLookupFailures": document_lookup_failures,
-              "documentsSkippedByCaseCap": documents_skipped_case_cap,
-              "documentsSkippedByRunCap": documents_skipped_run_cap,
+          Path("data/pending.json").write_text(json.dumps(remaining, ensure_ascii=False, indent=2), encoding="utf-8")
+          Path("data/case-cache.json").write_text(json.dumps(case_cache, ensure_ascii=False, indent=2), encoding="utf-8")
+          Path("data/document-cache.json").write_text(json.dumps(doc_cache, ensure_ascii=False, indent=2), encoding="utf-8")
+
+          # latest.json exposes resolved items from this run plus queued metadata so cAspIan can
+          # see the size/content of the backlog without triggering extra Horten requests itself.
+          latest_items = []
+          used = set()
+          for item in processed_this_run + (overview.get("items") or []) + remaining:
+              ident = item.get("identifier")
+              if ident and ident in used:
+                  continue
+              if ident:
+                  used.add(ident)
+              latest_items.append(item)
+              if len(latest_items) >= MAX_LATEST:
+                  break
+
+          latest = dict(overview)
+          latest["items"] = latest_items
+          latest["count"] = len(latest_items)
+          latest["enrichment"] = {
+              "generatedAt": now_iso,
+              "processedThisRun": len(processed_this_run),
+              "pendingQueueCount": len(remaining),
+              "cacheHits": cache_hits,
+              "caseCacheEntries": len(case_cache),
+              "documentCacheEntries": len(doc_cache),
+              "remoteCaseRequests": remote_case_requests,
+              "remoteDocumentRequests": remote_document_requests,
+              "potentialHortenRequestBudget": REQUEST_BUDGET_MAX,
+              "potentialHortenRequestsUsed": REQUEST_BUDGET_MAX - request_budget,
+              "lookupFailures": lookup_failures,
+              "backoffTriggered": stop_for_backoff,
               "safety": {
-                  "maxItemsPerRun": MAX_ITEMS,
+                  "maxPotentialHortenRequestsPerRun": REQUEST_BUDGET_MAX,
                   "maxDocumentsPerCase": MAX_DOCS_PER_CASE,
-                  "maxDocumentLookupsPerRun": MAX_DOC_LOOKUPS,
                   "minimumDelayBetweenPotentialHortenRequestsSeconds": REQUEST_DELAY,
-                  "itemsTruncatedBySafetyCap": data.get("safetyCapTruncatedItems", 0),
                   "sequentialRequestsOnly": True,
+                  "cacheEnabled": True,
+                  "persistentQueueEnabled": True,
+                  "http429Or503StopsRemainderOfRun": True,
+                  "overviewPagesPerRunMax": 8,
               },
-              "note": "a- case entries are resolved through Horten's public GET //sak/{identifier} endpoint, then published d- documents are resolved at a deliberately low request rate with hard per-run caps."
+              "note": "Large publication bursts are queued and drained gradually. Cached case/document results are reused and do not trigger repeat lookups."
           }
+          latest["queue"] = {
+              "pendingCount": len(remaining),
+              "processedThisRun": len(processed_this_run),
+              "nextCatchupPage": load_json("data/state.json", {}).get("nextCatchupPage", 5),
+          }
+          Path("data/latest.json").write_text(json.dumps(latest, ensure_ascii=False, indent=2), encoding="utf-8")
 
-          Path("data/latest.json").write_text(
-              json.dumps(data, ensure_ascii=False, indent=2),
-              encoding="utf-8",
-          )
-
-          print("Enrichment complete")
-          print(json.dumps(data["enrichment"], ensure_ascii=False, indent=2))
+          print("Queue/enrichment complete")
+          print(json.dumps(latest["enrichment"], ensure_ascii=False, indent=2))
           PY
 
       - name: Validate enriched JSON
         shell: bash
         run: |
           set -euo pipefail
-
           python - <<'PY'
           import json
-
           with open("data/latest.json", encoding="utf-8") as f:
               data = json.load(f)
-
           if not data.get("ok"):
               raise SystemExit("latest.json has ok=false")
           enrichment = data.get("enrichment") or {}
           required = [
-              "casesChecked",
-              "casesResolved",
-              "documentsChecked",
-              "pdfsAvailable",
+              "processedThisRun",
+              "pendingQueueCount",
+              "documentCacheEntries",
+              "potentialHortenRequestsUsed",
               "safety",
           ]
           missing = [k for k in required if k not in enrichment]
           if missing:
               raise SystemExit(f"latest.json missing enrichment fields: {missing}")
-
           print("latest.json OK")
           print(json.dumps(enrichment, ensure_ascii=False, indent=2))
           PY
@@ -345,11 +558,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-
           git config user.name "horten-postliste-bot"
           git config user.email "horten-postliste-bot@users.noreply.github.com"
 
-          git add data/overview.json data/latest.json
+          git add \
+            data/overview.json \
+            data/latest.json \
+            data/state.json \
+            data/pending.json \
+            data/case-cache.json \
+            data/document-cache.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
