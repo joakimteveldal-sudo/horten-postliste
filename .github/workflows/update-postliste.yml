@@ -2,9 +2,6 @@ name: Update Horten postliste
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - '.github/workflows/update-postliste.yml'
   schedule:
     - cron: "15 4 * * 1-5"
 
@@ -23,14 +20,14 @@ jobs:
       - name: Fetch latest postliste
         shell: bash
         env:
+          # Hard safety cap: never ask the Worker for more than 8 overview pages
+          # in one run. The Worker also filters by the 3-day SINCE window.
           MAX_OVERVIEW_PAGES: "8"
         run: |
           set -euo pipefail
           mkdir -p data
 
-          # One-time manual backfill requested 2026-09-14: include Wednesday 2026-09-09.
-          # Keep all existing safety caps intact.
-          SINCE="2026-09-09"
+          SINCE=$(date -u -d "3 days ago" +%F)
           echo "Fetching Horten postliste since $SINCE (max ${MAX_OVERVIEW_PAGES} pages)"
 
           curl --fail \
@@ -49,6 +46,7 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+
           data = json.loads(Path("data/overview.json").read_text(encoding="utf-8"))
           if not data.get("ok"):
               raise SystemExit("Worker overview returned ok=false")
@@ -60,14 +58,21 @@ jobs:
       - name: Resolve cases, documents and PDFs
         shell: bash
         env:
+          # Safety limits for direct/indirect requests that can reach Horten.
           MAX_ITEMS_PER_RUN: "60"
           MAX_DOCUMENTS_PER_CASE: "12"
           MAX_DOCUMENT_LOOKUPS_PER_RUN: "60"
           REQUEST_DELAY_SECONDS: "0.40"
         run: |
           set -euo pipefail
+
           python - <<'PY'
-          import http.cookiejar, json, os, time, urllib.parse, urllib.request
+          import http.cookiejar
+          import json
+          import os
+          import time
+          import urllib.parse
+          import urllib.request
           from datetime import datetime, timezone
           from pathlib import Path
 
@@ -75,6 +80,7 @@ jobs:
           POSTLISTE_PAGE = HORTEN + "/innsyn/sok-i-postlister-saker-og-dokumenter/"
           API = HORTEN + "/api/presentation/v2/nye-innsyn"
           WORKER = "https://horten-postliste.joakim-teveldal.workers.dev"
+
           MAX_ITEMS = max(1, int(os.environ.get("MAX_ITEMS_PER_RUN", "60")))
           MAX_DOCS_PER_CASE = max(1, int(os.environ.get("MAX_DOCUMENTS_PER_CASE", "12")))
           MAX_DOC_LOOKUPS = max(1, int(os.environ.get("MAX_DOCUMENT_LOOKUPS_PER_RUN", "60")))
@@ -94,29 +100,49 @@ jobs:
 
           def polite_wait():
               global last_horten_request_at
-              if REQUEST_DELAY <= 0: return
-              now = time.monotonic(); remaining = REQUEST_DELAY - (now - last_horten_request_at)
-              if remaining > 0: time.sleep(remaining)
+              if REQUEST_DELAY <= 0:
+                  return
+              now = time.monotonic()
+              remaining = REQUEST_DELAY - (now - last_horten_request_at)
+              if remaining > 0:
+                  time.sleep(remaining)
               last_horten_request_at = time.monotonic()
 
           def browser_headers():
-              return {"Accept":"*/*","Devicetype":"desktop","Origin":HORTEN,"Referer":POSTLISTE_PAGE,"User-Agent":"horten-postliste-github-action/3.0 (polite public-records reader)","X-Anti-Csrf":"1"}
+              return {
+                  "Accept": "*/*",
+                  "Devicetype": "desktop",
+                  "Origin": HORTEN,
+                  "Referer": POSTLISTE_PAGE,
+                  "User-Agent": "horten-postliste-github-action/3.0 (polite public-records reader)",
+                  "X-Anti-Csrf": "1",
+              }
 
           def init_horten_session():
-              polite_wait(); req = urllib.request.Request(POSTLISTE_PAGE, headers={"User-Agent": browser_headers()["User-Agent"]})
-              with opener.open(req, timeout=30) as response: response.read()
+              polite_wait()
+              req = urllib.request.Request(
+                  POSTLISTE_PAGE,
+                  headers={"User-Agent": browser_headers()["User-Agent"]},
+              )
+              with opener.open(req, timeout=30) as response:
+                  response.read()
 
           def horten_case_get(identifier):
               encoded = urllib.parse.quote(identifier, safe="!_-.")
-              polite_wait(); req = urllib.request.Request(API + "//sak/" + encoded, headers=browser_headers(), method="GET")
-              with opener.open(req, timeout=30) as response: return json.loads(response.read().decode("utf-8"))
+              url = API + "//sak/" + encoded
+              polite_wait()
+              req = urllib.request.Request(url, headers=browser_headers(), method="GET")
+              with opener.open(req, timeout=30) as response:
+                  return json.loads(response.read().decode("utf-8"))
 
           def property_map(block):
               out = {}
               for child in block.get("b") or []:
                   if child.get("type") == "PropertyList":
                       for prop in child.get("b") or []:
-                          if prop.get("title"): out[prop.get("title")] = prop.get("text")
+                          title = prop.get("title")
+                          if title:
+                              out[title] = prop.get("text")
               return out
 
           def extract_case_documents(payload):
@@ -127,80 +153,208 @@ jobs:
                       for doc in block.get("b") or []:
                           identifier = doc.get("identifier")
                           if identifier and identifier.startswith("d-"):
-                              docs.append({"identifier":identifier,"title":doc.get("title"),"type":doc.get("type"),"properties":property_map(doc)})
-              return body, docs[:MAX_DOCS_PER_CASE], max(0, len(docs)-MAX_DOCS_PER_CASE)
+                              docs.append({
+                                  "identifier": identifier,
+                                  "title": doc.get("title"),
+                                  "type": doc.get("type"),
+                                  "properties": property_map(doc),
+                              })
+              return body, docs[:MAX_DOCS_PER_CASE], max(0, len(docs) - MAX_DOCS_PER_CASE)
 
           def resolve_document(identifier):
-              polite_wait(); query = urllib.parse.urlencode({"id":identifier})
-              req = urllib.request.Request(f"{WORKER}/document?{query}", headers={"User-Agent":"horten-postliste-github-action/3.0 (polite public-records reader)"})
-              with urllib.request.urlopen(req, timeout=30) as response: return json.loads(response.read().decode("utf-8"))
+              polite_wait()
+              query = urllib.parse.urlencode({"id": identifier})
+              req = urllib.request.Request(
+                  f"{WORKER}/document?{query}",
+                  headers={"User-Agent": "horten-postliste-github-action/3.0 (polite public-records reader)"},
+              )
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  return json.loads(response.read().decode("utf-8"))
 
           init_horten_session()
-          cases_checked=cases_resolved=case_lookup_failures=documents_checked=public_files_found=pdfs_available=document_lookup_failures=documents_skipped_case_cap=documents_skipped_run_cap=0
-          for item in items:
-              identifier=item.get("identifier") or ""
-              item.update({"caseLookupAttempted":False,"caseLookupStatus":"not_applicable","case":None,"documents":[],"documentCount":0,"documentLookupAttempted":False,"documentLookupStatus":"not_applicable","document":None})
-              document_refs=[]
-              if identifier.startswith("a-"):
-                  item["caseLookupAttempted"]=True; item["caseLookupStatus"]="pending"; cases_checked+=1
-                  try:
-                      case_payload=horten_case_get(identifier); body, document_refs, skipped_for_case=extract_case_documents(case_payload)
-                      documents_skipped_case_cap+=skipped_for_case; item["documentsSkippedByCaseCap"]=skipped_for_case
-                      item["case"]={"identifier":body.get("identifier"),"title":body.get("title"),"props":body.get("props") or {},"statusCode":case_payload.get("statusCode"),"messages":case_payload.get("messages") or []}
-                      item["caseLookupStatus"]="resolved"; cases_resolved+=1
-                  except Exception as exc:
-                      case_lookup_failures+=1; item["caseLookupStatus"]="lookup_failed"; item["caseLookupError"]=str(exc)
-              elif identifier.startswith("d-"):
-                  document_refs=[{"identifier":identifier,"title":item.get("title"),"type":"DirectDocument","properties":{}}]
-              item["documentCount"]=len(document_refs)
-              for ref in document_refs:
-                  doc_id=ref.get("identifier")
-                  if not doc_id: continue
-                  if documents_checked>=MAX_DOC_LOOKUPS:
-                      documents_skipped_run_cap+=1; item["documentLookupStatus"]="safety_cap_reached"; skipped=dict(ref); skipped["lookupStatus"]="skipped_by_run_safety_cap"; item["documents"].append(skipped); continue
-                  item["documentLookupAttempted"]=True; item["documentLookupStatus"]="pending"; documents_checked+=1; enriched=dict(ref)
-                  try:
-                      payload=resolve_document(doc_id); enriched["lookup"]=payload; enriched["lookupStatus"]=payload.get("documentStatus") or ("ok" if payload.get("ok") else "worker_returned_not_ok")
-                      enriched["publicFilesAvailable"]=bool(payload.get("publicFilesAvailable")); enriched["pdfAvailable"]=bool(payload.get("pdfAvailable")); enriched["pdfUrl"]=payload.get("pdfUrl"); enriched["pdfFiles"]=payload.get("pdfFiles") or []
-                      if enriched["publicFilesAvailable"]: public_files_found+=1
-                      if enriched["pdfAvailable"]: pdfs_available+=1
-                  except Exception as exc:
-                      document_lookup_failures+=1; enriched.update({"lookupStatus":"lookup_failed","lookupError":str(exc),"publicFilesAvailable":None,"pdfAvailable":None,"pdfUrl":None,"pdfFiles":[]})
-                  item["documents"].append(enriched)
-              if item["documents"]:
-                  if item.get("documentLookupStatus")!="safety_cap_reached": item["documentLookupStatus"]="completed"
-                  looked_up=[d for d in item["documents"] if d.get("lookup")]; item["document"]=looked_up[0].get("lookup") if looked_up else None
-                  available=[d for d in item["documents"] if d.get("pdfAvailable")]; item["pdfAvailable"]=bool(available); item["pdfUrl"]=available[0].get("pdfUrl") if available else None; item["pdfStatus"]="available" if available else "not_available"
-              elif identifier.startswith("a-") and item["caseLookupStatus"]=="resolved":
-                  item["documentLookupStatus"]="no_published_documents"; item["pdfAvailable"]=False; item["pdfUrl"]=None; item["pdfStatus"]="no_published_documents"
 
-          data["enrichment"]={"generatedAt":datetime.now(timezone.utc).isoformat(),"casesChecked":cases_checked,"casesResolved":cases_resolved,"caseLookupFailures":case_lookup_failures,"documentsChecked":documents_checked,"publicFilesFound":public_files_found,"pdfsAvailable":pdfs_available,"documentLookupFailures":document_lookup_failures,"documentsSkippedByCaseCap":documents_skipped_case_cap,"documentsSkippedByRunCap":documents_skipped_run_cap,"safety":{"maxItemsPerRun":MAX_ITEMS,"maxDocumentsPerCase":MAX_DOCS_PER_CASE,"maxDocumentLookupsPerRun":MAX_DOC_LOOKUPS,"minimumDelayBetweenPotentialHortenRequestsSeconds":REQUEST_DELAY,"itemsTruncatedBySafetyCap":data.get("safetyCapTruncatedItems",0),"sequentialRequestsOnly":True},"note":"a- case entries are resolved through Horten's public GET //sak/{identifier} endpoint, then published d- documents are resolved at a deliberately low request rate with hard per-run caps."}
-          Path("data/latest.json").write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
-          print("Enrichment complete"); print(json.dumps(data["enrichment"], ensure_ascii=False, indent=2))
+          cases_checked = 0
+          cases_resolved = 0
+          case_lookup_failures = 0
+          documents_checked = 0
+          public_files_found = 0
+          pdfs_available = 0
+          document_lookup_failures = 0
+          documents_skipped_case_cap = 0
+          documents_skipped_run_cap = 0
+
+          for item in items:
+              identifier = item.get("identifier") or ""
+              item["caseLookupAttempted"] = False
+              item["caseLookupStatus"] = "not_applicable"
+              item["case"] = None
+              item["documents"] = []
+              item["documentCount"] = 0
+              item["documentLookupAttempted"] = False
+              item["documentLookupStatus"] = "not_applicable"
+              item["document"] = None
+              document_refs = []
+
+              if identifier.startswith("a-"):
+                  item["caseLookupAttempted"] = True
+                  item["caseLookupStatus"] = "pending"
+                  cases_checked += 1
+                  try:
+                      case_payload = horten_case_get(identifier)
+                      body, document_refs, skipped_for_case = extract_case_documents(case_payload)
+                      documents_skipped_case_cap += skipped_for_case
+                      item["documentsSkippedByCaseCap"] = skipped_for_case
+                      item["case"] = {
+                          "identifier": body.get("identifier"),
+                          "title": body.get("title"),
+                          "props": body.get("props") or {},
+                          "statusCode": case_payload.get("statusCode"),
+                          "messages": case_payload.get("messages") or [],
+                      }
+                      item["caseLookupStatus"] = "resolved"
+                      cases_resolved += 1
+                  except Exception as exc:
+                      case_lookup_failures += 1
+                      item["caseLookupStatus"] = "lookup_failed"
+                      item["caseLookupError"] = str(exc)
+
+              elif identifier.startswith("d-"):
+                  document_refs = [{
+                      "identifier": identifier,
+                      "title": item.get("title"),
+                      "type": "DirectDocument",
+                      "properties": {},
+                  }]
+
+              item["documentCount"] = len(document_refs)
+
+              for ref in document_refs:
+                  doc_id = ref.get("identifier")
+                  if not doc_id:
+                      continue
+                  if documents_checked >= MAX_DOC_LOOKUPS:
+                      documents_skipped_run_cap += 1
+                      item["documentLookupStatus"] = "safety_cap_reached"
+                      skipped = dict(ref)
+                      skipped["lookupStatus"] = "skipped_by_run_safety_cap"
+                      item["documents"].append(skipped)
+                      continue
+
+                  item["documentLookupAttempted"] = True
+                  item["documentLookupStatus"] = "pending"
+                  documents_checked += 1
+                  enriched = dict(ref)
+                  try:
+                      payload = resolve_document(doc_id)
+                      enriched["lookup"] = payload
+                      enriched["lookupStatus"] = payload.get("documentStatus") or ("ok" if payload.get("ok") else "worker_returned_not_ok")
+                      enriched["publicFilesAvailable"] = bool(payload.get("publicFilesAvailable"))
+                      enriched["pdfAvailable"] = bool(payload.get("pdfAvailable"))
+                      enriched["pdfUrl"] = payload.get("pdfUrl")
+                      enriched["pdfFiles"] = payload.get("pdfFiles") or []
+                      if enriched["publicFilesAvailable"]:
+                          public_files_found += 1
+                      if enriched["pdfAvailable"]:
+                          pdfs_available += 1
+                  except Exception as exc:
+                      document_lookup_failures += 1
+                      enriched["lookupStatus"] = "lookup_failed"
+                      enriched["lookupError"] = str(exc)
+                      enriched["publicFilesAvailable"] = None
+                      enriched["pdfAvailable"] = None
+                      enriched["pdfUrl"] = None
+                      enriched["pdfFiles"] = []
+                  item["documents"].append(enriched)
+
+              if item["documents"]:
+                  if item.get("documentLookupStatus") != "safety_cap_reached":
+                      item["documentLookupStatus"] = "completed"
+                  looked_up = [d for d in item["documents"] if d.get("lookup")]
+                  item["document"] = looked_up[0].get("lookup") if looked_up else None
+                  available = [d for d in item["documents"] if d.get("pdfAvailable")]
+                  item["pdfAvailable"] = bool(available)
+                  item["pdfUrl"] = available[0].get("pdfUrl") if available else None
+                  item["pdfStatus"] = "available" if available else "not_available"
+              elif identifier.startswith("a-") and item["caseLookupStatus"] == "resolved":
+                  item["documentLookupStatus"] = "no_published_documents"
+                  item["pdfAvailable"] = False
+                  item["pdfUrl"] = None
+                  item["pdfStatus"] = "no_published_documents"
+
+          data["enrichment"] = {
+              "generatedAt": datetime.now(timezone.utc).isoformat(),
+              "casesChecked": cases_checked,
+              "casesResolved": cases_resolved,
+              "caseLookupFailures": case_lookup_failures,
+              "documentsChecked": documents_checked,
+              "publicFilesFound": public_files_found,
+              "pdfsAvailable": pdfs_available,
+              "documentLookupFailures": document_lookup_failures,
+              "documentsSkippedByCaseCap": documents_skipped_case_cap,
+              "documentsSkippedByRunCap": documents_skipped_run_cap,
+              "safety": {
+                  "maxItemsPerRun": MAX_ITEMS,
+                  "maxDocumentsPerCase": MAX_DOCS_PER_CASE,
+                  "maxDocumentLookupsPerRun": MAX_DOC_LOOKUPS,
+                  "minimumDelayBetweenPotentialHortenRequestsSeconds": REQUEST_DELAY,
+                  "itemsTruncatedBySafetyCap": data.get("safetyCapTruncatedItems", 0),
+                  "sequentialRequestsOnly": True,
+              },
+              "note": "a- case entries are resolved through Horten's public GET //sak/{identifier} endpoint, then published d- documents are resolved at a deliberately low request rate with hard per-run caps."
+          }
+
+          Path("data/latest.json").write_text(
+              json.dumps(data, ensure_ascii=False, indent=2),
+              encoding="utf-8",
+          )
+
+          print("Enrichment complete")
+          print(json.dumps(data["enrichment"], ensure_ascii=False, indent=2))
           PY
 
       - name: Validate enriched JSON
         shell: bash
         run: |
           set -euo pipefail
+
           python - <<'PY'
           import json
-          with open("data/latest.json", encoding="utf-8") as f: data=json.load(f)
-          if not data.get("ok"): raise SystemExit("latest.json has ok=false")
-          enrichment=data.get("enrichment") or {}
-          required=["casesChecked","casesResolved","documentsChecked","pdfsAvailable","safety"]
-          missing=[k for k in required if k not in enrichment]
-          if missing: raise SystemExit(f"latest.json missing enrichment fields: {missing}")
-          print("latest.json OK"); print(json.dumps(enrichment, ensure_ascii=False, indent=2))
+
+          with open("data/latest.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          if not data.get("ok"):
+              raise SystemExit("latest.json has ok=false")
+          enrichment = data.get("enrichment") or {}
+          required = [
+              "casesChecked",
+              "casesResolved",
+              "documentsChecked",
+              "pdfsAvailable",
+              "safety",
+          ]
+          missing = [k for k in required if k not in enrichment]
+          if missing:
+              raise SystemExit(f"latest.json missing enrichment fields: {missing}")
+
+          print("latest.json OK")
+          print(json.dumps(enrichment, ensure_ascii=False, indent=2))
           PY
 
       - name: Commit updated data
         shell: bash
         run: |
           set -euo pipefail
+
           git config user.name "horten-postliste-bot"
           git config user.email "horten-postliste-bot@users.noreply.github.com"
+
           git add data/overview.json data/latest.json
-          if git diff --cached --quiet; then echo "No changes to commit."; exit 0; fi
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
           git commit -m "Update Horten postliste data"
           git push
