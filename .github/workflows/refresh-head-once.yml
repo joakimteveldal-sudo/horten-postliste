@@ -1,0 +1,50 @@
+name: One-time fresh Horten head refresh
+
+on:
+  push:
+    paths:
+      - '.github/workflows/refresh-head-once.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch newest journal pages safely
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          SINCE=$(date -u -d "7 days ago" +%F)
+          curl --fail --silent --show-error --location \
+            --connect-timeout 10 --max-time 90 --retry 2 --retry-delay 5 --retry-all-errors \
+            -A "horten-postliste-github-action/4.0 (polite public-records reader)" \
+            "https://horten-postliste.joakim-teveldal.workers.dev/overview?since=${SINCE}&startPage=1&maxPages=8" \
+            -o data/fresh-head.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path('data/fresh-head.json').read_text(encoding='utf-8'))
+          if not d.get('ok'): raise SystemExit('Worker returned ok=false')
+          print('fetchedAt', d.get('fetchedAt'))
+          print('count', d.get('count'))
+          print('pagesRead', d.get('pagesRead'))
+          print('hasMore', d.get('hasMore'))
+          print('nextPage', d.get('nextPage'))
+          dates=[x.get('isoDate') or x.get('date') for x in d.get('items',[]) if x.get('isoDate') or x.get('date')]
+          print('newest', max(dates) if dates else None)
+          print('oldest', min(dates) if dates else None)
+          PY
+      - name: Commit snapshot
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "horten-postliste-bot"
+          git config user.email "horten-postliste-bot@users.noreply.github.com"
+          git add data/fresh-head.json
+          git commit -m "Store one-time fresh Horten head snapshot" || exit 0
+          git push
