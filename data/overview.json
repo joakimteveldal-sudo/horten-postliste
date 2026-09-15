@@ -2,16 +2,16 @@
   "ok": true,
   "source": "https://www.horten.kommune.no",
   "mode": "overview",
-  "fetchedAt": "2026-09-14T06:02:32.707Z",
-  "since": "2026-09-09",
+  "fetchedAt": "2026-09-15T04:29:35.543Z",
+  "since": "2026-08-16",
   "startPage": 1,
   "pagesRead": 8,
-  "lastPageRead": 8,
+  "lastPageRead": 4,
   "count": 80,
   "totalAvailable": 122448,
   "stoppedBecauseOld": false,
   "hasMore": true,
-  "nextPage": 9,
+  "nextPage": 5,
   "documentLookup": {
     "route": "/document?id=<d-identifier>",
     "note": "Only document-level identifiers beginning with d- can be resolved directly."
@@ -1697,5 +1697,19 @@
       "pdfAvailable": null,
       "pdfUrl": null
     }
-  ]
+  ],
+  "overviewWindows": {
+    "head": {
+      "startPage": 1,
+      "pagesRead": 4,
+      "hasMore": true,
+      "nextPage": 5
+    },
+    "catchup": {
+      "startPage": 5,
+      "pagesRead": 4,
+      "hasMore": true,
+      "nextPage": 9
+    }
+  }
 }
