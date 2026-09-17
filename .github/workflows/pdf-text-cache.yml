@@ -1,0 +1,156 @@
+name: Build temporary PDF text cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Main postliste workflow starts at 04:15 UTC and normally finishes quickly.
+    - cron: "35 4 * * 1-5"
+
+permissions:
+  contents: read
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install PDF text extractor
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq poppler-utils
+
+      - name: Download public PDFs gently and extract text
+        shell: bash
+        env:
+          MAX_PDFS_PER_RUN: "20"
+          REQUEST_DELAY_SECONDS: "2.0"
+        run: |
+          set -euo pipefail
+          mkdir -p pdf-cache/text pdf-cache/pdf
+
+          python - <<'PY'
+          import hashlib
+          import json
+          import os
+          import subprocess
+          import time
+          import urllib.error
+          import urllib.request
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          latest = json.loads(Path('data/latest.json').read_text(encoding='utf-8'))
+          max_pdfs = max(1, int(os.environ.get('MAX_PDFS_PER_RUN', '20')))
+          delay = max(1.0, float(os.environ.get('REQUEST_DELAY_SECONDS', '2.0')))
+          ua = 'horten-postliste-github-action/4.1 (polite public-records PDF reader)'
+
+          candidates = []
+          seen = set()
+          for item in latest.get('items') or []:
+              if item.get('queueStatus') != 'resolved':
+                  continue
+              for doc in item.get('documents') or []:
+                  if not doc.get('pdfAvailable'):
+                      continue
+                  files = doc.get('pdfFiles') or []
+                  if not files and doc.get('pdfUrl'):
+                      files = [{'url': doc.get('pdfUrl'), 'title': doc.get('title')}]
+                  for f in files:
+                      url = f.get('url')
+                      if not url or url in seen:
+                          continue
+                      # Only cache the municipality's already-confirmed public file endpoint.
+                      if not url.startswith('https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/'):
+                          continue
+                      seen.add(url)
+                      candidates.append({
+                          'caseIdentifier': item.get('identifier'),
+                          'caseNumber': item.get('caseNumber'),
+                          'caseTitle': item.get('title'),
+                          'documentIdentifier': doc.get('identifier'),
+                          'documentTitle': doc.get('title'),
+                          'fileTitle': f.get('title'),
+                          'publicPdfUrl': url,
+                      })
+
+          manifest = {
+              'generatedAt': datetime.now(timezone.utc).isoformat(),
+              'sourceFetchedAt': latest.get('fetchedAt'),
+              'mode': 'temporary_actions_artifact',
+              'retentionDays': 2,
+              'maxPdfsPerRun': max_pdfs,
+              'candidatePdfCount': len(candidates),
+              'entries': [],
+              'stoppedForBackoff': False,
+          }
+
+          for i, entry in enumerate(candidates[:max_pdfs]):
+              if i:
+                  time.sleep(delay)
+              key = hashlib.sha256(entry['publicPdfUrl'].encode()).hexdigest()[:20]
+              pdf_path = Path('pdf-cache/pdf') / f'{key}.pdf'
+              txt_path = Path('pdf-cache/text') / f'{key}.txt'
+              out = dict(entry)
+              out.update({'cacheKey': key, 'textPath': str(txt_path), 'status': 'pending'})
+              try:
+                  req = urllib.request.Request(entry['publicPdfUrl'], headers={'User-Agent': ua, 'Accept': 'application/pdf,*/*'})
+                  with urllib.request.urlopen(req, timeout=45) as r:
+                      content_type = (r.headers.get('Content-Type') or '').lower()
+                      body = r.read(15 * 1024 * 1024 + 1)
+                  if len(body) > 15 * 1024 * 1024:
+                      out['status'] = 'skipped_too_large'
+                  elif not body.startswith(b'%PDF'):
+                      out['status'] = 'not_pdf_response'
+                      out['contentType'] = content_type
+                  else:
+                      pdf_path.write_bytes(body)
+                      p = subprocess.run(['pdftotext', '-layout', str(pdf_path), str(txt_path)], capture_output=True, text=True, timeout=45)
+                      if p.returncode != 0:
+                          out['status'] = 'text_extract_failed'
+                          out['error'] = (p.stderr or '')[:300]
+                      else:
+                          text = txt_path.read_text(encoding='utf-8', errors='replace').strip()
+                          out['status'] = 'text_extracted' if text else 'no_extractable_text'
+                          out['characters'] = len(text)
+                          out['bytes'] = len(body)
+              except urllib.error.HTTPError as exc:
+                  out['status'] = f'http_{exc.code}'
+                  if exc.code in (429, 503):
+                      manifest['stoppedForBackoff'] = True
+                      manifest['entries'].append(out)
+                      break
+              except Exception as exc:
+                  out['status'] = 'fetch_or_extract_failed'
+                  out['error'] = str(exc)[:300]
+              finally:
+                  if pdf_path.exists():
+                      pdf_path.unlink()
+              manifest['entries'].append(out)
+
+          Path('pdf-cache/manifest.json').write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(json.dumps({
+              'candidatePdfCount': manifest['candidatePdfCount'],
+              'processed': len(manifest['entries']),
+              'textExtracted': sum(1 for x in manifest['entries'] if x.get('status') == 'text_extracted'),
+              'stoppedForBackoff': manifest['stoppedForBackoff'],
+          }, ensure_ascii=False))
+          PY
+
+      - name: Remove any accidentally retained PDF binaries
+        if: always()
+        run: rm -rf pdf-cache/pdf
+
+      - name: Upload short-lived text cache
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: caspian-public-pdf-text-cache
+          path: |
+            pdf-cache/manifest.json
+            pdf-cache/text/*.txt
+          if-no-files-found: error
+          retention-days: 2
+          compression-level: 6
