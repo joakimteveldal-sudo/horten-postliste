@@ -5510,5 +5510,1121 @@
         }
       ]
     }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038878!A5t8Z6": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Varsel om alvorlig hendelse - informasjon om tilsynssak og anmodning om rapport - Innsynsbegjæring",
+          "subtitle": "26/39741",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038878!A5t8Z6",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130347!0lLwEh",
+                  "title": "Varsel om alvorlig hendelse - informasjon om tilsynssak og anmodning om rapport - Innsynsbegjæring",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/59078",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "19.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Sara Therese Dyvik Jakobsen",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17622",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "19.09.2026",
+            "sakstype": "Innsynsbegjæringer",
+            "saksbehandler": "Trine Johnsen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038877!TYEo7g": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Tilsynssak - oversendelse av rapport - Innsynsbegjæring",
+          "subtitle": "26/51971",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038877!TYEo7g",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130346!JvCPEx",
+                  "title": "Tilsynssak - oversendelse av rapport - Innsynsbegjæring",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/59077",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "19.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Sara Therese Dyvik Jakobsen",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17621",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "19.09.2026",
+            "sakstype": "Innsynsbegjæringer",
+            "saksbehandler": "Trine Johnsen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038555!Ef8oIY": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Formannskapet - 18.09.2026",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038555!Ef8oIY",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (2)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128713!exiUnG",
+                  "title": "Innkalling - Formannskapet - 18.09.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/57444",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "11.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Sakskart",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130585!Snsc4q",
+                  "title": "Møteprotokoll - Formannskapet - 18.09.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/59316",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "21.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Møteprotokoll",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "MP",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "MP",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17299",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "11.09.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Brigitta Poosz Ludvigsen",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038491!OIZhA5": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038491!OIZhA5",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (2)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100127907!TB2qFH",
+                  "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/56638",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Paulsen Eiendom As",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130598!3zN2kb",
+                  "title": "Bekymringsmelding - gangsti grøntareal Strandpromenaden 30 - Bromsveien 25 - ønsker svar",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/59329",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "21.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Paulsen Eiendom As",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17235",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "10.09.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Rita Røer",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038459!rTc1L2": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Transporttilbud TT-ordningen",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038459!rTc1L2",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (3)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128260!eIjwQV",
+                  "title": "Transporttilbud TT-ordningen - søknad",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/56991",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128455!HIOjm3",
+                  "title": "Transporttilbud TT-ordningen - søknad",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/57186",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "10.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130005!4asoTA",
+                  "title": "Transporttilbud TT-ordningen - godkjenning som bruker - kopi",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/58736",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "18.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17203",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "09.09.2026",
+            "sakstype": "Søknad om TT kort",
+            "saksbehandler": "Linda L. Solem",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038464!bUzCwq": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "21/199 - Grendeveien 5 - klarlegging av eksisterende grenser",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038464!bUzCwq",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (2)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128287!BpCSvx",
+                  "title": "21/199 - Grendeveien 5 - klarlegging av eksisterende grenser",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/57018",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Edvin Valen",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100129148!tLjzZw",
+                  "title": "21/199 - Grendeveien 5 - klarlegging av eksisterende grenser - varsel om oppmålingsforretning",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/57879",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "15.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Mottaker",
+                          "text": "Flere mottakere",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17208",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "09.09.2026",
+            "sakstype": "Oppmålingsssak",
+            "saksbehandler": "Marianne Gjone",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038466!PnXi8U": {
+    "fetchedAt": "2026-09-28T04:30:51.004326+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Gratis busskort for nyinnflyttede studenter",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100038466!PnXi8U",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128298!kKPefs",
+                  "title": "Søknad om busskort",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/57029",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.09.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/17210",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "09.09.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Kirsti Jansson",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
   }
 }
