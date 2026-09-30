@@ -12,7 +12,7 @@ permissions:
 jobs:
   cache:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -25,7 +25,7 @@ jobs:
       - name: Download public PDFs gently and extract text
         shell: bash
         env:
-          MAX_PDFS_PER_RUN: "20"
+          MAX_PDFS_PER_RUN: "50"
           REQUEST_DELAY_SECONDS: "2.0"
         run: |
           set -euo pipefail
