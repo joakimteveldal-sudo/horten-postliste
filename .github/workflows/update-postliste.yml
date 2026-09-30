@@ -152,7 +152,7 @@ jobs:
         env:
           # This is a hard budget for requests that can ultimately reach Horten.
           # It replaces the old 60-document lookup cap and prevents bursty catch-up.
-          MAX_POTENTIAL_HORTEN_REQUESTS_PER_RUN: "20"
+          MAX_POTENTIAL_HORTEN_REQUESTS_PER_RUN: "30"
           MAX_DOCUMENTS_PER_CASE: "4"
           REQUEST_DELAY_SECONDS: "1.25"
           MAX_PENDING_ITEMS: "3000"
