@@ -10094,5 +10094,1039 @@
       "pdfUrl": null,
       "pdfFiles": []
     }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130786!pDeVSq": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:04.621Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130786!pDeVSq",
+      "title": "Historiske saker for eiendommen 24/1 - innsynsbegjæring - svar",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/59517",
+        "DATE": "22.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17645-3",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "22.09.2026",
+        "Mottaker": "Kms Arkitekter AS"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 4,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274729_1_A!d-1100130786!e1qV6m",
+          "title": "Historiske saker for eiendommen 24/1 - innsynsbegjæring - svar (pdf, 91KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274729_1_A!d-1100130786!e1qV6m?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274786_1_A!d-1100130786!DhFtrN",
+          "title": "kart borre golfbane 1990 (pdf, 11MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274786_1_A!d-1100130786!DhFtrN?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274782_1_A!d-1100130786!LGtcY5",
+          "title": "070189 00014 OMD (pdf, 446KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274782_1_A!d-1100130786!LGtcY5?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274785_1_A!d-1100130786!KYRwqm",
+          "title": "070188 00038 OMD og Fylykeslandbruksstyresak 512_88 (pdf, 1,3MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274785_1_A!d-1100130786!KYRwqm?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 4,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274729_1_A!d-1100130786!e1qV6m?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274729_1_A!d-1100130786!e1qV6m",
+          "title": "Historiske saker for eiendommen 24/1 - innsynsbegjæring - svar (pdf, 91KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274729_1_A!d-1100130786!e1qV6m?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274786_1_A!d-1100130786!DhFtrN",
+          "title": "kart borre golfbane 1990 (pdf, 11MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274786_1_A!d-1100130786!DhFtrN?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274782_1_A!d-1100130786!LGtcY5",
+          "title": "070189 00014 OMD (pdf, 446KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274782_1_A!d-1100130786!LGtcY5?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274785_1_A!d-1100130786!KYRwqm",
+          "title": "070188 00038 OMD og Fylykeslandbruksstyresak 512_88 (pdf, 1,3MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274785_1_A!d-1100130786!KYRwqm?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100129619!wYskb8": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:07.036Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100129619!wYskb8",
+      "title": "128/172 - Storgata 23 - spørsmål om bruksformål - ber om redegjørelse",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/58350",
+        "DATE": "16.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17517-1",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "16.09.2026",
+        "Mottaker": "Mottaker"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 4,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272126_1_A!d-1100129619!wCK5Y1",
+          "title": "128/172 - Storgata 23 - spørsmål om bruksformål - ber om redegjørelse (pdf, 411KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272126_1_A!d-1100129619!wCK5Y1?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272169_1_A!d-1100129619!DLL5h1",
+          "title": "Tegning nr. 2 1980 (pdf, 6,2MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272169_1_A!d-1100129619!DLL5h1?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272170_1_A!d-1100129619!bgelM6",
+          "title": "Tegning 1980 (pdf, 1,5MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272170_1_A!d-1100129619!bgelM6?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272171_1_A!d-1100129619!avZajk",
+          "title": "Tegning 2004 (pdf, 3,8MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272171_1_A!d-1100129619!avZajk?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 4,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272126_1_A!d-1100129619!wCK5Y1?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272126_1_A!d-1100129619!wCK5Y1",
+          "title": "128/172 - Storgata 23 - spørsmål om bruksformål - ber om redegjørelse (pdf, 411KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272126_1_A!d-1100129619!wCK5Y1?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272169_1_A!d-1100129619!DLL5h1",
+          "title": "Tegning nr. 2 1980 (pdf, 6,2MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272169_1_A!d-1100129619!DLL5h1?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272170_1_A!d-1100129619!bgelM6",
+          "title": "Tegning 1980 (pdf, 1,5MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272170_1_A!d-1100129619!bgelM6?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272171_1_A!d-1100129619!avZajk",
+          "title": "Tegning 2004 (pdf, 3,8MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-272171_1_A!d-1100129619!avZajk?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100126322!s6kRL7": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:07.640Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100126322!s6kRL7",
+      "title": "Tilbud om FRISK-samtale",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/55053",
+        "DATE": "15.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16869-1",
+        "DEPARTMENT": "Aktivitet og helsekompetanse"
+      },
+      "textFields": {
+        "Journaldato": "15.09.2026",
+        "Brevdato": "09.09.2026",
+        "Mottaker": "Mottaker"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-264582_5_P!d-1100126322!u03U2i",
+          "title": "Tilbud om FRISK-samtale (pdf, 61KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-264582_5_P!d-1100126322!u03U2i?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-264582_5_P!d-1100126322!u03U2i?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-264582_5_P!d-1100126322!u03U2i",
+          "title": "Tilbud om FRISK-samtale (pdf, 61KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-264582_5_P!d-1100126322!u03U2i?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100126593!zSacoM": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:13.440Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100126593!zSacoM",
+      "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/55324",
+        "DATE": "31.08.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17398-1",
+        "DEPARTMENT": "Vann og avløp"
+      },
+      "textFields": {
+        "Brev-/journaldato": "31.08.2026",
+        "Avsender": "Midgard Arkitektur Jitka Holanová"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 3,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265155_1_A!d-1100126593!1oG1Ao",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke (pdf, 96KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265155_1_A!d-1100126593!1oG1Ao?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265156_1_A!d-1100126593!DDOwUS",
+          "title": "A20-01 El ladere - plan (pdf, 1MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265156_1_A!d-1100126593!DDOwUS?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265157_1_A!d-1100126593!FTrbjh",
+          "title": "A10-01 Situasjonsplan (pdf, 996KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265157_1_A!d-1100126593!FTrbjh?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 3,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265155_1_A!d-1100126593!1oG1Ao?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265155_1_A!d-1100126593!1oG1Ao",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke (pdf, 96KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265155_1_A!d-1100126593!1oG1Ao?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265156_1_A!d-1100126593!DDOwUS",
+          "title": "A20-01 El ladere - plan (pdf, 1MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265156_1_A!d-1100126593!DDOwUS?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265157_1_A!d-1100126593!FTrbjh",
+          "title": "A10-01 Situasjonsplan (pdf, 996KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-265157_1_A!d-1100126593!FTrbjh?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100129143!J15A4w": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:14.163Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100129143!J15A4w",
+      "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - etterspør svar",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57874",
+        "DATE": "14.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17398-2",
+        "DEPARTMENT": "Vann og avløp"
+      },
+      "textFields": {
+        "Brev-/journaldato": "14.09.2026",
+        "Avsender": "Midgard Arkitektur Jitka Holanová"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 5,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271031_1_A!d-1100129143!jvtFbU",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - etterspør svar (pdf, 98KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271031_1_A!d-1100129143!jvtFbU?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271032_1_A!d-1100129143!XGQryC",
+          "title": "Brev fra kommune_avstand til VA-ledninger (pdf, 92KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271032_1_A!d-1100129143!XGQryC?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271033_1_A!d-1100129143!y6rwKw",
+          "title": "Søknad_samtykke avstand VA-ledningene_ kopi (pdf, 69KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271033_1_A!d-1100129143!y6rwKw?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271034_1_A!d-1100129143!xtJEXi",
+          "title": "Søknad_dispensasjon byggegrense vei_ kvittering (pdf, 116KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271034_1_A!d-1100129143!xtJEXi?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271035_1_A!d-1100129143!aCZr01",
+          "title": "A10-01 Situasjonsplan (pdf, 996KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271035_1_A!d-1100129143!aCZr01?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 5,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271031_1_A!d-1100129143!jvtFbU?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271031_1_A!d-1100129143!jvtFbU",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - etterspør svar (pdf, 98KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271031_1_A!d-1100129143!jvtFbU?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271032_1_A!d-1100129143!XGQryC",
+          "title": "Brev fra kommune_avstand til VA-ledninger (pdf, 92KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271032_1_A!d-1100129143!XGQryC?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271033_1_A!d-1100129143!y6rwKw",
+          "title": "Søknad_samtykke avstand VA-ledningene_ kopi (pdf, 69KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271033_1_A!d-1100129143!y6rwKw?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271034_1_A!d-1100129143!xtJEXi",
+          "title": "Søknad_dispensasjon byggegrense vei_ kvittering (pdf, 116KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271034_1_A!d-1100129143!xtJEXi?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271035_1_A!d-1100129143!aCZr01",
+          "title": "A10-01 Situasjonsplan (pdf, 996KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-271035_1_A!d-1100129143!aCZr01?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130762!XVNF1g": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:15.212Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100130762!XVNF1g",
+      "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - svar fra VA",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/59493",
+        "DATE": "22.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17398-3",
+        "DEPARTMENT": "Vann og avløp"
+      },
+      "textFields": {
+        "Brev-/journaldato": "22.09.2026",
+        "Mottaker": "Midgard Arkitektur Jitka Holanová"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274661_1_A!d-1100130762!0aPLsL",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - svar fra VA (pdf, 2,6MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274661_1_A!d-1100130762!0aPLsL?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274661_1_A!d-1100130762!0aPLsL?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274661_1_A!d-1100130762!0aPLsL",
+          "title": "132/308 - Ulvestien - avstand til VA-ledninger - ber om samtykke - svar fra VA (pdf, 2,6MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-274661_1_A!d-1100130762!0aPLsL?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128441!biQZFF": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:16.553Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128441!biQZFF",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikarer Baggerød bofellesskap, Horten kommune - st. ref. 5162460438",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57172",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16327-171",
+        "DEPARTMENT": "Baggerød bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128345!f8KE7u": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:18.497Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128345!f8KE7u",
+      "title": "2/477 - Valhallveien 2A - installering av trappeheis - oppdatert samtykke",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57076",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17184-2",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Journaldato": "10.09.2026",
+        "Brevdato": "09.09.2026",
+        "Avsender": "Elin Svendsen"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 3,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269280_1_A!d-1100128345!5TVRiV",
+          "title": "2/477 - Valhallveien 2A - installering av trappeheis - oppdatert samtykke (pdf, 132KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269280_1_A!d-1100128345!5TVRiV?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269281_1_A!d-1100128345!S8TFXo",
+          "title": "image001 (pdf, 7KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269281_1_A!d-1100128345!S8TFXo?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 2,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269280_1_A!d-1100128345!5TVRiV?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269280_1_A!d-1100128345!5TVRiV",
+          "title": "2/477 - Valhallveien 2A - installering av trappeheis - oppdatert samtykke (pdf, 132KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269280_1_A!d-1100128345!5TVRiV?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269281_1_A!d-1100128345!S8TFXo",
+          "title": "image001 (pdf, 7KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269281_1_A!d-1100128345!S8TFXo?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128541!qS20vX": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:19.402Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128541!qS20vX",
+      "title": "Søknad og CV - Sykepleier tilkalling - st. ref. (5167826945)",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57272",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16535-25",
+        "DEPARTMENT": "Horten legevakt og kommunale legesenter"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128561!Ym3DkB": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:21.554Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128561!Ym3DkB",
+      "title": "Tilbud om jobb - Lærer Borre Ungdomsskole, Horten kommune - st. ref. 5166818354",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57292",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16625-49",
+        "DEPARTMENT": "Borre ungdomsskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128370!av6zJg": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:22.085Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128370!av6zJg",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikar lærer Sentrum Skole, Horten kommune - st. ref. 5164055269",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57101",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16290-54",
+        "DEPARTMENT": "Sentrum barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128391!YkUxgm": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:23.332Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128391!YkUxgm",
+      "title": "Rammeavtale for tilkallingsvikar - 21102026 - 31032027",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57122",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/13269-48",
+        "DEPARTMENT": "Baggerød bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128335!h7pIMs": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:24.807Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128335!h7pIMs",
+      "title": "Søknad og CV - IKT-konsulent, brukerstøtte - st. ref. (5172057637)",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57066",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16890-144",
+        "DEPARTMENT": "IKT og digitalisering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128560!fkOcS6": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:25.790Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128560!fkOcS6",
+      "title": "Tilbud om jobb - Merkantil medarbeider Borre Ungdomsskole, Horten kommune - st. ref. 5168375356",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57291",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16624-73",
+        "DEPARTMENT": "Borre ungdomsskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128447!0UClSy": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:27.125Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128447!0UClSy",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikarer Baggerød bofellesskap, Horten kommune - st. ref. 5162460438",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57178",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16327-177",
+        "DEPARTMENT": "Baggerød bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128554!deo86H": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:29.624Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128554!deo86H",
+      "title": "Søknad om busskort",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57285",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17252-1",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "10.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "6 filer som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128352!27P28I": {
+    "fetchedAt": "2026-09-30T04:31:03.215879+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-09-30T04:31:30.821Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100128352!27P28I",
+      "title": "24/26 Trimveien 33 - Handelspark - ferdigattest - ber om opplysninger - ber om bekreftelse",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/57083",
+        "DATE": "10.09.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2025/2508-16",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Journaldato": "10.09.2026",
+        "Brevdato": "09.09.2026",
+        "Avsender": "Sands Advokatfirma As"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269298_1_A!d-1100128352!Jeo2eJ",
+          "title": "24/26 Trimveien 33 - Handelspark - ferdigattest - ber om opplysninger - ber om bekreftelse (pdf, 110KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269298_1_A!d-1100128352!Jeo2eJ?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269298_1_A!d-1100128352!Jeo2eJ?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269298_1_A!d-1100128352!Jeo2eJ",
+          "title": "24/26 Trimveien 33 - Handelspark - ferdigattest - ber om opplysninger - ber om bekreftelse (pdf, 110KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-269298_1_A!d-1100128352!Jeo2eJ?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
   }
 }
