@@ -2,15 +2,18 @@ name: Build temporary PDF text cache
 
 on:
   workflow_dispatch:
-  schedule:
-    # Main postliste workflow starts at 04:15 UTC and normally finishes quickly.
-    - cron: "35 4 * * 1-5"
+  workflow_run:
+    workflows: ["Update Horten postliste"]
+    types: [completed]
 
 permissions:
   contents: read
 
 jobs:
   cache:
+    # Automatic cache builds only follow a successful postliste update.
+    # workflow_dispatch remains available for manual testing.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
