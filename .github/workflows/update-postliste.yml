@@ -11,7 +11,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 45
 
     steps:
       - name: Checkout repository
@@ -156,7 +156,8 @@ jobs:
           MAX_DOCUMENTS_PER_CASE: "4"
           REQUEST_DELAY_SECONDS: "1.25"
           MAX_PENDING_ITEMS: "3000"
-          MAX_LATEST_ITEMS: "400"
+          MAX_LATEST_ITEMS: "3000"
+          DRAIN_MAX_BATCHES: "15"
         run: |
           set -euo pipefail
 
@@ -528,6 +529,105 @@ jobs:
           print("Queue/enrichment complete")
           print(json.dumps(latest["enrichment"], ensure_ascii=False, indent=2))
           PY
+
+      - name: Drain remaining enrichment queue in polite batches
+        shell: bash
+        env:
+          MAX_POTENTIAL_HORTEN_REQUESTS_PER_RUN: "50"
+          MAX_DOCUMENTS_PER_CASE: "4"
+          REQUEST_DELAY_SECONDS: "1.25"
+          MAX_PENDING_ITEMS: "3000"
+          MAX_LATEST_ITEMS: "3000"
+          DRAIN_MAX_BATCHES: "15"
+        run: |
+          set -euo pipefail
+
+          # The first 50-request batch has already run above. Continue against the
+          # persistent local queue without fetching the journal overview again.
+          # Reuse the exact resolver code from the previous step, but feed it an
+          # empty overview so no new items are enqueued during backlog draining.
+          cp data/overview.json data/overview-original.json
+
+          PREV_PENDING=$(python - <<'PY'
+          import json
+          print(len(json.load(open("data/pending.json", encoding="utf-8"))))
+          PY
+          )
+
+          MAX_BATCHES="${DRAIN_MAX_BATCHES}"
+          echo "Backlog drain starts with ${PREV_PENDING} pending; max extra batches: ${MAX_BATCHES}"
+
+          for BATCH in $(seq 1 "${MAX_BATCHES}"); do
+            if [ "${PREV_PENDING}" -le 0 ]; then
+              echo "Queue empty."
+              break
+            fi
+
+            # Preserve fetchedAt/since metadata, but make this an empty discovery
+            # input: the resolver works only on data/pending.json in drain passes.
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("data/overview.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          d["items"]=[]
+          d["count"]=0
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+          PY
+
+            # Extract and execute the queue resolver body from this workflow's
+            # first enrichment step. This keeps one implementation of the safety
+            # logic (50-request budget, 1.25 s delay, sequential access, 429/503 stop).
+            python - <<'PY'
+          from pathlib import Path
+          wf=Path(".github/workflows/update-postliste.yml").read_text(encoding="utf-8")
+          start=wf.index("          import http.cookiejar")
+          end=wf.index('          PY\n\n      - name: Drain remaining enrichment queue', start)
+          code="\n".join(line[10:] if line.startswith("          ") else line for line in wf[start:end].splitlines())
+          Path("/tmp/caspian_resolver.py").write_text(code, encoding="utf-8")
+          PY
+            python /tmp/caspian_resolver.py
+
+            CUR_PENDING=$(python - <<'PY'
+          import json
+          print(len(json.load(open("data/pending.json", encoding="utf-8"))))
+          PY
+          )
+            BACKOFF=$(python - <<'PY'
+          import json
+          d=json.load(open("data/latest.json", encoding="utf-8"))
+          print("true" if (d.get("enrichment") or {}).get("backoffTriggered") else "false")
+          PY
+          )
+
+            echo "Drain batch ${BATCH}: pending ${PREV_PENDING} -> ${CUR_PENDING}; backoff=${BACKOFF}"
+
+            if [ "${BACKOFF}" = "true" ]; then
+              echo "429/503 backoff triggered; ending backlog drain safely."
+              break
+            fi
+            if [ "${CUR_PENDING}" -ge "${PREV_PENDING}" ]; then
+              echo "No queue progress; ending backlog drain to avoid repeated requests."
+              break
+            fi
+            PREV_PENDING="${CUR_PENDING}"
+          done
+
+          # Restore overview metadata for the final published latest.json.
+          cp data/overview-original.json data/overview.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          latest=Path("data/latest.json")
+          overview=json.loads(Path("data/overview.json").read_text(encoding="utf-8"))
+          d=json.loads(latest.read_text(encoding="utf-8"))
+          for k in ("ok","source","mode","fetchedAt","since","startPage","pagesRead","lastPageRead","totalAvailable","stoppedBecauseOld","hasMore","nextPage","overviewWindows"):
+              if k in overview:
+                  d[k]=overview[k]
+          d["queue"]["pendingCount"]=len(json.loads(Path("data/pending.json").read_text(encoding="utf-8")))
+          latest.write_text(json.dumps(d, ensure_ascii=False, indent=2), encoding="utf-8")
+          PY
+          rm -f data/overview-original.json
 
       - name: Validate enriched JSON
         shell: bash
