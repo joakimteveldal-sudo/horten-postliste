@@ -548,6 +548,8 @@ jobs:
           # empty overview so no new items are enqueued during backlog draining.
           cp data/overview.json data/overview-original.json
 
+          cp data/latest.json /tmp/caspian-resolved-accumulator.json
+
           PREV_PENDING=$(python - <<'PY'
           import json
           print(len(json.load(open("data/pending.json", encoding="utf-8"))))
@@ -588,6 +590,29 @@ jobs:
           PY
             python /tmp/caspian_resolver.py
 
+            # Keep resolved items from every drain pass for the PDF cache.
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          accp=Path("/tmp/caspian-resolved-accumulator.json")
+          curp=Path("data/latest.json")
+          acc=json.loads(accp.read_text(encoding="utf-8"))
+          cur=json.loads(curp.read_text(encoding="utf-8"))
+          merged=[]
+          seen=set()
+          for item in (acc.get("items") or []) + (cur.get("items") or []):
+              if item.get("queueStatus") != "resolved":
+                  continue
+              ident=item.get("identifier")
+              if ident and ident in seen:
+                  continue
+              if ident: seen.add(ident)
+              merged.append(item)
+          cur["items"]=merged
+          cur["count"]=len(merged)
+          accp.write_text(json.dumps(cur, ensure_ascii=False, indent=2), encoding="utf-8")
+          PY
+
             CUR_PENDING=$(python - <<'PY'
           import json
           print(len(json.load(open("data/pending.json", encoding="utf-8"))))
@@ -612,6 +637,9 @@ jobs:
             fi
             PREV_PENDING="${CUR_PENDING}"
           done
+
+          # Publish all resolved items so the PDF workflow sees every successful batch.
+          cp /tmp/caspian-resolved-accumulator.json data/latest.json
 
           # Restore overview metadata for the final published latest.json.
           cp data/overview-original.json data/overview.json
