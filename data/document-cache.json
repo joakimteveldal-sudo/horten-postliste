@@ -73087,5 +73087,2941 @@
         }
       ]
     }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132727!J5V1wo": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:14.281Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132727!J5V1wo",
+      "title": "Åsgårdstrand sykehjem - anmodning om innsyn i journal",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61458",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18009-1",
+        "DEPARTMENT": "Mestring og helse"
+      },
+      "textFields": {
+        "Journaldato": "01.10.2026",
+        "Brevdato": "30.09.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "2 filer som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132790!5G9U9A": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:16.902Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132790!5G9U9A",
+      "title": "Åsgårdstrand sykehjem - anmodning om innsyn i journal - foreløpig svar",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61521",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18009-2",
+        "DEPARTMENT": "Mestring og helse"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133461!AvTNPl": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:19.069Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133461!AvTNPl",
+      "title": "92/1, 92/3, 311/3 og 311/7 - egenerklæring om konsesjonsfrihet ved erverv av fast eiendom",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62192",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18146-1",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "Sondre Bruserud"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133433!wqV6Sy": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:21.233Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133433!wqV6Sy",
+      "title": "Klage på kommunens tjenester",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62164",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18133-1",
+        "DEPARTMENT": "Mestring og helse"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "2 filer som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133399!xlN37D": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:21.723Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133399!xlN37D",
+      "title": "Midlertidig arbeidsavtale - 01102026 - 31052027 - Frist utløpt",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62130",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/9884-20",
+        "DEPARTMENT": "Kultur og fritid"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "Rana Marie Ücbas Vold"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132846!IdtclH": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:24.512Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132846!IdtclH",
+      "title": "Vikveien 413B, 37/34 - Tilsynsrapport - tilsyn av avløpsanlegg",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61577",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18022-1",
+        "DEPARTMENT": "Kommunalteknisk driftsavdeling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Mottaker": "KRISTIANSEN MAGNUS"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279375_1_A!d-1100132846!gzK202",
+          "title": "Vikveien 413B, 37/34 - Tilsynsrapport - tilsyn av avløpsanlegg (pdf, 470KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279375_1_A!d-1100132846!gzK202?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279375_1_A!d-1100132846!gzK202?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279375_1_A!d-1100132846!gzK202",
+          "title": "Vikveien 413B, 37/34 - Tilsynsrapport - tilsyn av avløpsanlegg (pdf, 470KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279375_1_A!d-1100132846!gzK202?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132852!0zhMhY": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:26.274Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132852!0zhMhY",
+      "title": "Vikveien 360, 35/44 - Tilsynsrapport - tilsyn av avløpsanlegg",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61583",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18024-1",
+        "DEPARTMENT": "Kommunalteknisk driftsavdeling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Mottaker": "LARSEN RAYMOND"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279384_1_A!d-1100132852!WYXTtX",
+          "title": "Vikveien 360, 35/44 - Tilsynsrapport - tilsyn av avløpsanlegg (pdf, 757KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279384_1_A!d-1100132852!WYXTtX?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279384_1_A!d-1100132852!WYXTtX?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279384_1_A!d-1100132852!WYXTtX",
+          "title": "Vikveien 360, 35/44 - Tilsynsrapport - tilsyn av avløpsanlegg (pdf, 757KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279384_1_A!d-1100132852!WYXTtX?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133028!vC3vHF": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:27.499Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133028!vC3vHF",
+      "title": "Svar på søknad - Leder Døgnbemannet boformer og sykehjem, Horten Kommune - st. ref. 5188349671",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61759",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17968-3",
+        "DEPARTMENT": "Baggerød bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132767!LmjcBX": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:28.758Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132767!LmjcBX",
+      "title": "Svar på søknad - Sykepleier Åsgårdstrand sykehjem - administrasjon, Horten kommune - st. ref. 5185793918",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61498",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17821-7",
+        "DEPARTMENT": "Rehabilitering og habilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133408!WWlE34": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:31.268Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133408!WWlE34",
+      "title": "129/295 - Valeurgata 9A - bruksendring av kjeller fra tilleggsdel til hoveddel - søknad om ferdigattest",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62139",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18124-1",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Journaldato": "05.10.2026",
+        "Brevdato": "02.10.2026",
+        "Avsender": "Profoyn As"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 3,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280569_1_A!d-1100133408!rS1vgh",
+          "title": "129/295 - Valeurgata 9A - bruksendring av kjeller fra tilleggsdel til hoveddel - søknad om ferdigattest (pdf, 44KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280569_1_A!d-1100133408!rS1vgh?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280573_1_A!d-1100133408!MAIe5N",
+          "title": "5_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280573_1_A!d-1100133408!MAIe5N?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "5 systemfiler som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 2,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280569_1_A!d-1100133408!rS1vgh?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280569_1_A!d-1100133408!rS1vgh",
+          "title": "129/295 - Valeurgata 9A - bruksendring av kjeller fra tilleggsdel til hoveddel - søknad om ferdigattest (pdf, 44KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280569_1_A!d-1100133408!rS1vgh?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280573_1_A!d-1100133408!MAIe5N",
+          "title": "5_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280573_1_A!d-1100133408!MAIe5N?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132807!h2F6qe": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:32.499Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132807!h2F6qe",
+      "title": " Søknad om ettergivelse av eiendomsskatten 2026",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61538",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18013-1",
+        "DEPARTMENT": "Økonomi- og virksomhetsstyring"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "2 filer som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133553!9WtKx4": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:34.987Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133553!9WtKx4",
+      "title": "Avslagsbrev 1 - ikke videre - Assistenter Skoppum bofellesskap, Horten kommune - st. ref. 5180689511",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62284",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17655-45",
+        "DEPARTMENT": "Skoppum bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133496!ti1Gyc": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:36.248Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133496!ti1Gyc",
+      "title": "Behov for hjelp fra HR til ansatte ved Praktisk bistand",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62227",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18139-1",
+        "DEPARTMENT": "Kommunedirektør"
+      },
+      "textFields": {
+        "Journaldato": "05.10.2026",
+        "Brevdato": "04.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133464!2OEbQS": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:37.486Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133464!2OEbQS",
+      "title": "20/537 - Tveitenveien 32B - nedgravd basseng - supplering av søknad",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62195",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/8987-15",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "Plan Og Tegn Amirjan"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 6,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280693_1_A!d-1100133464!toLxfd",
+          "title": "20/537 - Tveitenveien 32B - nedgravd basseng - supplering av søknad (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280693_1_A!d-1100133464!toLxfd?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280694_1_A!d-1100133464!oUXK21",
+          "title": "2_ANKO_ErklaeringAnsvarsrett_Ansvarsrett_PRO_Sanitærinstallasjoner_PAHLEN INTERNATIONAL AS (pdf, 333KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280694_1_A!d-1100133464!oUXK21?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280695_1_A!d-1100133464!dYmfFL",
+          "title": "3_ANKO_ErklaeringAnsvarsrett_Ansvarsrett_PRO_Arkitektur_PLAN OG TEGN AMIRJAN (pdf, 332KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280695_1_A!d-1100133464!dYmfFL?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280696_1_A!d-1100133464!TKYmTt",
+          "title": "4_ANKO_ErklaeringAnsvarsrett_Ansvarserklæring_UTF_Annet_HETTERVIK HÅVARD (pdf, 1,3MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280696_1_A!d-1100133464!TKYmTt?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280700_1_A!d-1100133464!GCA7Oc",
+          "title": "8_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280700_1_A!d-1100133464!GCA7Oc?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "5 systemfiler som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 5,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280693_1_A!d-1100133464!toLxfd?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280693_1_A!d-1100133464!toLxfd",
+          "title": "20/537 - Tveitenveien 32B - nedgravd basseng - supplering av søknad (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280693_1_A!d-1100133464!toLxfd?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280694_1_A!d-1100133464!oUXK21",
+          "title": "2_ANKO_ErklaeringAnsvarsrett_Ansvarsrett_PRO_Sanitærinstallasjoner_PAHLEN INTERNATIONAL AS (pdf, 333KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280694_1_A!d-1100133464!oUXK21?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280695_1_A!d-1100133464!dYmfFL",
+          "title": "3_ANKO_ErklaeringAnsvarsrett_Ansvarsrett_PRO_Arkitektur_PLAN OG TEGN AMIRJAN (pdf, 332KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280695_1_A!d-1100133464!dYmfFL?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280696_1_A!d-1100133464!TKYmTt",
+          "title": "4_ANKO_ErklaeringAnsvarsrett_Ansvarserklæring_UTF_Annet_HETTERVIK HÅVARD (pdf, 1,3MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280696_1_A!d-1100133464!TKYmTt?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280700_1_A!d-1100133464!GCA7Oc",
+          "title": "8_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280700_1_A!d-1100133464!GCA7Oc?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133465!82NihT": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:38.738Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133465!82NihT",
+      "title": "127/326 - Olavs gate 18B - tilbygg, fasadeendring - supplering av søknad",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62196",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/14312-15",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "Plan Og Tegn Amirjan"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 3,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280703_1_A!d-1100133465!6cOkNy",
+          "title": "127/326 - Olavs gate 18B - tilbygg, fasadeendring - supplering av søknad (pdf, 42KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280703_1_A!d-1100133465!6cOkNy?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280707_1_A!d-1100133465!NwCDoB",
+          "title": "5_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280707_1_A!d-1100133465!NwCDoB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "5 systemfiler som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 2,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280703_1_A!d-1100133465!6cOkNy?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280703_1_A!d-1100133465!6cOkNy",
+          "title": "127/326 - Olavs gate 18B - tilbygg, fasadeendring - supplering av søknad (pdf, 42KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280703_1_A!d-1100133465!6cOkNy?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280707_1_A!d-1100133465!NwCDoB",
+          "title": "5_Gjennomføringsplan_Gjennomfoeringsplan (pdf, 46KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280707_1_A!d-1100133465!NwCDoB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133550!fhsDJN": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:40.040Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133550!fhsDJN",
+      "title": "128/539 - Grønligata 15F - ytterligere spørsmål - svar",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62281",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18131-4",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Mottaker": "Henrik Johannessen Skjelby"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280867_1_A!d-1100133550!ExTCBc",
+          "title": "128/539 - Grønligata 15F - ytterligere spørsmål - svar (pdf, 91KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280867_1_A!d-1100133550!ExTCBc?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280869_1_A!d-1100133550!Fbuvwd",
+          "title": "Matrikkelkart128_539 (pdf, 1,1MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280869_1_A!d-1100133550!Fbuvwd?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 2,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280867_1_A!d-1100133550!ExTCBc?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280867_1_A!d-1100133550!ExTCBc",
+          "title": "128/539 - Grønligata 15F - ytterligere spørsmål - svar (pdf, 91KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280867_1_A!d-1100133550!ExTCBc?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280869_1_A!d-1100133550!Fbuvwd",
+          "title": "Matrikkelkart128_539 (pdf, 1,1MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280869_1_A!d-1100133550!Fbuvwd?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133434!39k8W2": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:41.255Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133434!39k8W2",
+      "title": "Kongeveien/Losen/HAV - rammeavtale for tilkallingsvikar - 01102026 - 31122026",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62165",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17794-3",
+        "DEPARTMENT": "Aktivitetstilbud"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133508!l3ltjX": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:43.576Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133508!l3ltjX",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikar Fagerheim Skole, Horten kommune - st. ref. 5181198528",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62239",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17511-59",
+        "DEPARTMENT": "Fagerheim barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133478!831Jux": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:44.065Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133478!831Jux",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikar Fagerheim Skole, Horten kommune - st. ref. 5181198528",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62209",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17511-44",
+        "DEPARTMENT": "Fagerheim barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133456!7hhAYJ": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:45.319Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133456!7hhAYJ",
+      "title": "Fjerning eller sanering av nedgravde oljetanker",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62187",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18137-1",
+        "DEPARTMENT": "Forurensning, styring og kvalitet"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "ROBERT NICOLAS GLØGÅRD"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280677_1_A!d-1100133456!rvDEGw",
+          "title": "Fjerning eller sanering av nedgravde oljetanker (pdf, 100KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280677_1_A!d-1100133456!rvDEGw?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280677_1_A!d-1100133456!rvDEGw?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280677_1_A!d-1100133456!rvDEGw",
+          "title": "Fjerning eller sanering av nedgravde oljetanker (pdf, 100KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280677_1_A!d-1100133456!rvDEGw?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133561!vlxcj6": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:46.582Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133561!vlxcj6",
+      "title": "131/20 - Øvre Keisemark 44 - separering spill-/overvann - ønsker bekreftelse - svar",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62292",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16713-3",
+        "DEPARTMENT": "Kommunalteknisk driftsavdeling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Mottaker": "Øyvind Ellefsen"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280888_1_A!d-1100133561!5TMfUS",
+          "title": "131/20 - Øvre Keisemark 44 - separering spill-/overvann - ønsker bekreftelse - svar (pdf, 126KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280888_1_A!d-1100133561!5TMfUS?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280888_1_A!d-1100133561!5TMfUS?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280888_1_A!d-1100133561!5TMfUS",
+          "title": "131/20 - Øvre Keisemark 44 - separering spill-/overvann - ønsker bekreftelse - svar (pdf, 126KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280888_1_A!d-1100133561!5TMfUS?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133420!hIxTMT": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:47.831Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133420!hIxTMT",
+      "title": "Formell henvendelse til ordfører",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62151",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16829-32",
+        "DEPARTMENT": "Kommunedirektør"
+      },
+      "textFields": {
+        "Journaldato": "05.10.2026",
+        "Brevdato": "04.10.2026",
+        "Avsender": "Svein Fimreite"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280608_1_A!d-1100133420!Afg9ne",
+          "title": "Formell henvendelse til ordfører (pdf, 100KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280608_1_A!d-1100133420!Afg9ne?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280608_1_A!d-1100133420!Afg9ne?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280608_1_A!d-1100133420!Afg9ne",
+          "title": "Formell henvendelse til ordfører (pdf, 100KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-280608_1_A!d-1100133420!Afg9ne?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133603!VlBniC": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:49.108Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133603!VlBniC",
+      "title": "Søknad og CV - Lærer på barneskole - st. ref. (5175395087)",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62334",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17724-56",
+        "DEPARTMENT": "Lysheim barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133598!PfFHht": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:50.321Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133598!PfFHht",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62329",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-211",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026",
+        "Avsender": "SIMON POLO"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133510!eg71Ly": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:51.581Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133510!eg71Ly",
+      "title": "Avslagsbrev 1 - ikke videre - Tilkallingsvikar Fagerheim Skole, Horten kommune - st. ref. 5181198528",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62241",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17511-60",
+        "DEPARTMENT": "Fagerheim barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133446!MLUxct": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:52.859Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133446!MLUxct",
+      "title": "Søknad om ledsagerbevis - innvilget",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62177",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18044-3",
+        "DEPARTMENT": "Kultur og fritid"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133521!NXlHZ4": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:54.143Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133521!NXlHZ4",
+      "title": "Ledsagerbevis - søknad - innvilget",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62252",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/18057-3",
+        "DEPARTMENT": "Kultur og fritid"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132996!R2S26l": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:55.310Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132996!R2S26l",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61727",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-137",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "HÅKON JØRSTAD"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132690!6SRTFs": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:56.580Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132690!6SRTFs",
+      "title": "Offentlig søkerliste",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61421",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17511-40",
+        "DEPARTMENT": "Fagerheim barneskole"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Mottaker": "Fagerheim Skole"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278992_1_A!d-1100132690!G630ui",
+          "title": "Offentlig søkerliste (pdf, 151KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278992_1_A!d-1100132690!G630ui?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278992_1_A!d-1100132690!G630ui?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278992_1_A!d-1100132690!G630ui",
+          "title": "Offentlig søkerliste (pdf, 151KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278992_1_A!d-1100132690!G630ui?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132930!6SbNeC": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:33:57.870Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132930!6SbNeC",
+      "title": "Avslagsbrev 2- stilling besatt - Fagkonsulent/veileder Barnehabilitering - Tiltak i hjemmet, Horten kommune - st. ref. 5161114389",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61661",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16389-98",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132516!BoE9Vh": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:00.452Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132516!BoE9Vh",
+      "title": "Svar på søknad om å beholde barnehageplass ved Blåbærlyngen barnehage",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61247",
+        "DATE": "02.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17976-1",
+        "DEPARTMENT": "Barnehage"
+      },
+      "textFields": {
+        "Journaldato": "02.10.2026",
+        "Brevdato": "01.10.2026",
+        "Mottaker": "Tine Edvardsen"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 1,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132645!IhES0V": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:01.565Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132645!IhES0V",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61376",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-66",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "INGVILD HERSVIK"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132613!J27Nsn": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:02.885Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132613!J27Nsn",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61344",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-42",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "MORTEN LAUMANN ENGEBRETSEN"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133070!xW30pa": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:04.060Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133070!xW30pa",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61801",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-175",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "CHARLOTTE CABILIN FJELLVIK"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132940!EfZPmW": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:05.306Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132940!EfZPmW",
+      "title": "Avslagsbrev 2- stilling besatt - Fagkonsulent/veileder Barnehabilitering - Tiltak i hjemmet, Horten kommune - st. ref. 5161114389",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61671",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16389-108",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132708!muZGt0": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:06.571Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132708!muZGt0",
+      "title": "Svar på søknad - Nattevakt Barnehabilitering kommunal avlastning, Horten kommune - st. ref. 5178123303",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61439",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17637-37",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132865!JMEYDN": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:07.891Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132865!JMEYDN",
+      "title": "Avslagsbrev 1 - ikke videre - Assistenter Barnehabilitering - Kommunal avlastning, Horten kommune - st. ref. 5178123646",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61596",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17717-26",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132786!CdCfVB": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:09.080Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132786!CdCfVB",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61517",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-105",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "MAGNUS NJØTEN GRØTTERUD"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132555!62ma7P": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:10.362Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132555!62ma7P",
+      "title": "Fjerning eller sanering av nedgravde oljetanker",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61286",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17981-1",
+        "DEPARTMENT": "Forurensning, styring og kvalitet"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "TERJE NILSEN"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278730_1_A!d-1100132555!15jMnB",
+          "title": "Fjerning eller sanering av nedgravde oljetanker (pdf, 105KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278730_1_A!d-1100132555!15jMnB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 1,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278730_1_A!d-1100132555!15jMnB?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278730_1_A!d-1100132555!15jMnB",
+          "title": "Fjerning eller sanering av nedgravde oljetanker (pdf, 105KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278730_1_A!d-1100132555!15jMnB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132706!GbsLUG": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:11.582Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132706!GbsLUG",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61437",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-93",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "KIRSTI BREKKE"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132938!UcfKhk": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:12.817Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132938!UcfKhk",
+      "title": "Avslagsbrev 2- stilling besatt - Fagkonsulent/veileder Barnehabilitering - Tiltak i hjemmet, Horten kommune - st. ref. 5161114389",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61669",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/16389-106",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133060!22avYd": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:14.075Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133060!22avYd",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61791",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-169",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "MORTEN DE LANGE"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132652!wkTuCX": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:15.313Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132652!wkTuCX",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61383",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-71",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "JORUNN ELISABETH ALBERTSEN"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132666!dJksUq": {
+    "fetchedAt": "2026-10-09T04:33:10.984027+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:16.645Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132666!dJksUq",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61397",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-83",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "JOHANNE ELISABETH LINDVIG"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132854!EJwHYO": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:17.439Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132854!EJwHYO",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61585",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-119",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "KRISTIN LOUISE NILSEN"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132693!mf4ogr": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:18.677Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132693!mf4ogr",
+      "title": "127/213 - Paul Bentsens gate 18 - seksjonering - oppdaterte tegninger",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61424",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/15796-7",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "Kaja jahrn"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 4,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278997_1_A!d-1100132693!xX8xd2",
+          "title": "127/213 - Paul Bentsens gate 18 - seksjonering - oppdaterte tegninger (pdf, 127KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278997_1_A!d-1100132693!xX8xd2?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278998_1_A!d-1100132693!wF68GW",
+          "title": "Paul Bentsens gate 18 SOM BYGGET 2026-09-07[79] (pdf, 823KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278998_1_A!d-1100132693!wF68GW?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278999_1_A!d-1100132693!YJAOwM",
+          "title": "IMG_9246 (pdf, 1,8MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278999_1_A!d-1100132693!YJAOwM?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279000_1_A!d-1100132693!pNPKME",
+          "title": "IMG_9245 (pdf, 2,2MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279000_1_A!d-1100132693!pNPKME?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 4,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278997_1_A!d-1100132693!xX8xd2?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278997_1_A!d-1100132693!xX8xd2",
+          "title": "127/213 - Paul Bentsens gate 18 - seksjonering - oppdaterte tegninger (pdf, 127KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278997_1_A!d-1100132693!xX8xd2?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278998_1_A!d-1100132693!wF68GW",
+          "title": "Paul Bentsens gate 18 SOM BYGGET 2026-09-07[79] (pdf, 823KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278998_1_A!d-1100132693!wF68GW?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278999_1_A!d-1100132693!YJAOwM",
+          "title": "IMG_9246 (pdf, 1,8MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278999_1_A!d-1100132693!YJAOwM?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279000_1_A!d-1100132693!pNPKME",
+          "title": "IMG_9245 (pdf, 2,2MB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-279000_1_A!d-1100132693!pNPKME?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132611!UWLIgD": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:19.967Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132611!UWLIgD",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61342",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-40",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "LASSE ØVERBY"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132537!gSU3Sy": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:21.156Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132537!gSU3Sy",
+      "title": "130/276 - Selvikveien 22 - fjerning eller sanering av nedgravde oljetanker - ferdigmelding",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61268",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17979-1",
+        "DEPARTMENT": "Forurensning, styring og kvalitet"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "Sveis-Stål-Montasje Børre Larsen As"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278695_1_A!d-1100132537!FokbyB",
+          "title": "130/276 - Selvikveien 22 - fjerning eller sanering av nedgravde oljetanker - ferdigmelding (pdf, 80KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278695_1_A!d-1100132537!FokbyB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278696_1_A!d-1100132537!HTpVaD",
+          "title": "Selvikveien 22, Horten (pdf, 848KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278696_1_A!d-1100132537!HTpVaD?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 2,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278695_1_A!d-1100132537!FokbyB?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278695_1_A!d-1100132537!FokbyB",
+          "title": "130/276 - Selvikveien 22 - fjerning eller sanering av nedgravde oljetanker - ferdigmelding (pdf, 80KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278695_1_A!d-1100132537!FokbyB?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278696_1_A!d-1100132537!HTpVaD",
+          "title": "Selvikveien 22, Horten (pdf, 848KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278696_1_A!d-1100132537!HTpVaD?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132678!VsFG7L": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:22.443Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132678!VsFG7L",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61409",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-86",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "GØRAN DAHL SILSAND"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132490!geFn9f": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:23.684Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132490!geFn9f",
+      "title": "130/235 - Sommerfeldts gate 11A - carport - orientering om søknadsplikt",
+      "documentStatus": "public_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61221",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/14336-8",
+        "DEPARTMENT": "Plan og utbyggingstjenester"
+      },
+      "textFields": {
+        "Journaldato": "01.10.2026",
+        "Brevdato": "30.09.2026",
+        "Mottaker": "Mottaker"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 5,
+      "files": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278605_1_A!d-1100132490!zUmRgF",
+          "title": "130/235 - Sommerfeldts gate 11A - carport - orientering om søknadsplikt (pdf, 92KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278605_1_A!d-1100132490!zUmRgF?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278606_1_A!d-1100132490!j16aZ5",
+          "title": "130/235 - Sommerfeldts gate 11A - orientering om krav til søknad etter pbl (pdf, 99KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278606_1_A!d-1100132490!j16aZ5?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278607_1_A!d-1100132490!DcYxqj",
+          "title": "130/235 - Sommerfeldts gate 11A - carport - takutspring over tomtegrense (pdf, 73KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278607_1_A!d-1100132490!DcYxqj?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278608_1_A!d-1100132490!vBL2C0",
+          "title": "original-67B5019E-D8C3-4908-A38C-47F905C404C8 (pdf, 363KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278608_1_A!d-1100132490!vBL2C0?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278609_1_A!d-1100132490!hQq6fi",
+          "title": "processed-873AD87B-B15C-4479-9C35-C0BBD30DD582 (pdf, 704KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278609_1_A!d-1100132490!hQq6fi?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ],
+      "pdfAvailable": true,
+      "pdfCount": 5,
+      "pdfUrl": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278605_1_A!d-1100132490!zUmRgF?pid=24",
+      "pdfFiles": [
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278605_1_A!d-1100132490!zUmRgF",
+          "title": "130/235 - Sommerfeldts gate 11A - carport - orientering om søknadsplikt (pdf, 92KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278605_1_A!d-1100132490!zUmRgF?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278606_1_A!d-1100132490!j16aZ5",
+          "title": "130/235 - Sommerfeldts gate 11A - orientering om krav til søknad etter pbl (pdf, 99KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278606_1_A!d-1100132490!j16aZ5?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278607_1_A!d-1100132490!DcYxqj",
+          "title": "130/235 - Sommerfeldts gate 11A - carport - takutspring over tomtegrense (pdf, 73KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278607_1_A!d-1100132490!DcYxqj?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278608_1_A!d-1100132490!vBL2C0",
+          "title": "original-67B5019E-D8C3-4908-A38C-47F905C404C8 (pdf, 363KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278608_1_A!d-1100132490!vBL2C0?pid=24",
+          "type": "Text",
+          "isPdf": true
+        },
+        {
+          "identifier": "v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278609_1_A!d-1100132490!hQq6fi",
+          "title": "processed-873AD87B-B15C-4479-9C35-C0BBD30DD582 (pdf, 704KB)",
+          "url": "https://www.horten.kommune.no/api/presentation/v2/nye-innsyn/filer/v-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-278609_1_A!d-1100132490!hQq6fi?pid=24",
+          "type": "Text",
+          "isPdf": true
+        }
+      ]
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132644!8ChamW": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:24.913Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132644!8ChamW",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61375",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-65",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "KJELL ARNE BRATLI"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132715!oBuTFm": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:26.217Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132715!oBuTFm",
+      "title": "Svar på søknad - Nattevakt Barnehabilitering kommunal avlastning, Horten kommune - st. ref. 5178123303",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61446",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17637-39",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132870!PSLaLQ": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:27.394Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132870!PSLaLQ",
+      "title": "Avslagsbrev 1 - ikke videre - Nattevakt Barnehabilitering kommunal avlastning, Horten kommune - st. ref. 5178123303",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61601",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17637-40",
+        "DEPARTMENT": "Barnehabilitering"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132893!3m4G8J": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:30.122Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100132893!3m4G8J",
+      "title": "Støtte til vintersykling 2026 - søknad",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/61624",
+        "DATE": "01.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17934-124",
+        "DEPARTMENT": "Samfunnsutvikling"
+      },
+      "textFields": {
+        "Brev-/journaldato": "01.10.2026",
+        "Avsender": "CHRISTINA HELENE KRISTIANSEN"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
+  },
+  "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133519!kQtrAK": {
+    "fetchedAt": "2026-10-09T04:34:16.902816+00:00",
+    "payload": {
+      "ok": true,
+      "source": "https://www.horten.kommune.no",
+      "mode": "document",
+      "fetchedAt": "2026-10-09T04:34:30.601Z",
+      "documentIdentifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133519!kQtrAK",
+      "title": "Innkalling til intervju - Assistenter Skoppum bofellesskap, Horten kommune - st. ref. 5180689511",
+      "documentStatus": "public_non_pdf_files_found",
+      "hortenStatusCode": 200,
+      "hortenMessages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ],
+      "metadata": {
+        "FRIENDLY_ID": "2026/62250",
+        "DATE": "05.10.2026",
+        "CASE_DOCUMENT_FRIENDLY_ID": "2026/17655-43",
+        "DEPARTMENT": "Skoppum bofellesskap"
+      },
+      "textFields": {
+        "Brev-/journaldato": "05.10.2026"
+      },
+      "publicFilesAvailable": true,
+      "fileCount": 2,
+      "files": [
+        {
+          "identifier": null,
+          "title": "1 fil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        },
+        {
+          "identifier": null,
+          "title": "1 systemfil som ikke er publisert.",
+          "url": null,
+          "type": "Text",
+          "isPdf": false
+        }
+      ],
+      "pdfAvailable": false,
+      "pdfCount": 0,
+      "pdfUrl": null,
+      "pdfFiles": []
+    }
   }
 }
