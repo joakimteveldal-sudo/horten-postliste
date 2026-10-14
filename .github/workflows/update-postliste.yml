@@ -252,7 +252,7 @@ jobs:
               return s
 
           pending.sort(key=lambda x: (score(x), x.get("isoDate") or x.get("date") or ""), reverse=True)
-          pending = pending[:MAX_PENDING]
+          # Do not truncate the persistent backlog; per-run request budgets govern processing.
 
           jar = http.cookiejar.CookieJar()
           opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(jar))
@@ -340,7 +340,7 @@ jobs:
                                   "type": doc.get("type"),
                                   "properties": property_map(doc),
                               })
-              return body, docs[:MAX_DOCS_PER_CASE], max(0, len(docs) - MAX_DOCS_PER_CASE)
+              return body, docs, 0  # All published document references remain eligible.
 
           def get_case(identifier):
               global cache_hits, remote_case_requests
@@ -471,7 +471,7 @@ jobs:
 
           # Preserve any not-yet-processed queue entries, strongest candidates first.
           remaining.sort(key=lambda x: (score(x), x.get("isoDate") or x.get("date") or ""), reverse=True)
-          remaining = remaining[:MAX_PENDING]
+          # Keep every unresolved entry for subsequent runs; never silently drop backlog.
 
           Path("data/pending.json").write_text(json.dumps(remaining, ensure_ascii=False, indent=2), encoding="utf-8")
           Path("data/case-cache.json").write_text(json.dumps(case_cache, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -488,8 +488,7 @@ jobs:
               if ident:
                   used.add(ident)
               latest_items.append(item)
-              if len(latest_items) >= MAX_LATEST:
-                  break
+              # No publication truncation: keep all discovered/resolved/pending items.
 
           latest = dict(overview)
           latest["items"] = latest_items
@@ -509,7 +508,7 @@ jobs:
               "backoffTriggered": stop_for_backoff,
               "safety": {
                   "maxPotentialHortenRequestsPerRun": REQUEST_BUDGET_MAX,
-                  "maxDocumentsPerCase": MAX_DOCS_PER_CASE,
+                  "maxDocumentsPerCase": None,  # No per-case document truncation.
                   "minimumDelayBetweenPotentialHortenRequestsSeconds": REQUEST_DELAY,
                   "sequentialRequestsOnly": True,
                   "cacheEnabled": True,
