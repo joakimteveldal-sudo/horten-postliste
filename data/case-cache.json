@@ -48557,5 +48557,2871 @@
         }
       ]
     }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039654!NEh9W5": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "125/427 - Moloveien 1A - nabovarsel",
+          "subtitle": "Gjelder kommunens eiendom(mer)",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039654!NEh9W5",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134856!nT6kqg",
+                  "title": "125/427 - Moloveien 1A - nabovarsel",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63587",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Tbc As",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18398",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "Nabovarsling",
+            "saksbehandler": "Rita Røer",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039475!nFfFLU": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "45/224 - Markveien 4B - branntilsyn",
+          "subtitle": "H0101",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039475!nFfFLU",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133888!rNi0dX",
+                  "title": "45/224 - Markveien 4B - branntilsyn - varsel om tilsyn",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62619",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Vestfold Interkommunale Brannvesen IKS",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18219",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "07.10.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Rune Huse",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039480!CGjAgr": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Tilsyn av avløpsanlegg 35/4/0/1 Vikveien 280A",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039480!CGjAgr",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133907!1fZhWs",
+                  "title": "Vikveien 280A, 35/4/0/1 - Tilsynsrapport - tilsyn av avløpsanlegg",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62638",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Mottaker",
+                          "text": "HØGÅS TOR JAKOB",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18224",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "07.10.2026",
+            "sakstype": "Utslippstillatelse",
+            "saksbehandler": "Lene Kristin Tronrud",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039660!UVhnaY": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Forslag til endring på skatteregnskapsområdet - høring",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039660!UVhnaY",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134908!zGdpVx",
+                  "title": "Forslag til endring på skatteregnskapsområdet - høring",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63639",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "Skatteetaten",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18404",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "Høringssaker",
+            "saksbehandler": "Ellinor Wellum Skaar",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039666!gHwvBB": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "MELLOM KEISEMARK 48A, 130/45 - separering spill-/overvann",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039666!gHwvBB",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134947!5MnKwm",
+                  "title": "MELLOM KEISEMARK 48A, 130/45 - Varsel om pålegg - separering spill-/overvann",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63678",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Mottaker",
+                          "text": "Flere mottakere",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18410",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "VVA sak",
+            "saksbehandler": "Andre Eide",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039659!94TJ3P": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Karl Uchermanns vei 6 2/282 - avkjørsel - byggegrense etter vegloven",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039659!94TJ3P",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134884!FDf9pL",
+                  "title": "Karl Uchermanns vei 6, 2/282 - avkjørsel og byggegrense etter vegloven - søknad",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63615",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "KARIN SIEBENLIST",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18403",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "Avkjøringstillatelse",
+            "saksbehandler": "Amanda K. Kalleberg",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039668!rJaPgv": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "MELLOM KEISEMARK 42, 130/131 - separering spill-/overvann",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039668!rJaPgv",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134948!CQgAYR",
+                  "title": "MELLOM KEISEMARK 42, 130/131 - Varsel om pålegg - separering spill-/overvann",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63679",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Mottaker",
+                          "text": "KAARDAHL JANNICKE L",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18412",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "VVA sak",
+            "saksbehandler": "Andre Eide",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039651!MiGw2g": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "129/268 - Mellom Keisemark 12 - fjerning eller sanering av nedgravde oljetanker",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039651!MiGw2g",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134833!dLGpaF",
+                  "title": "Fjerning eller sanering av nedgravde oljetanker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63564",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "ARILD ADAMSRØD",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18395",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Fredrik Vikse",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039656!Rs6z5W": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Strandparken barnehage - barne- og ungdomsarbeider - st. ref. 5191947592",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039656!Rs6z5W",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (4)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134923!XDtqiP",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Strandparken Barnehage, Horten kommune - st. ref. 5191947592",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63654",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134928!VDYQ5I",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5191947592)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63659",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135056!WUyYoC",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5191947592)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63787",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135057!muh5RY",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Strandparken Barnehage, Horten kommune - st. ref. 5191947592",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63788",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18400",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "13.10.2026",
+            "sakstype": "Rekruttering",
+            "saksbehandler": "Ronny Nesse",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039493!LaT4Sp": {
+    "fetchedAt": "2026-10-16T07:56:35.860713+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Åsgården skole - tilkallingsvikar - barne- og ungdomsarbeider - st. ref. 5190777958",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039493!LaT4Sp",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (22)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133985!L7WTd4",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62716",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133986!w2Se3l",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62717",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134012!xEHtsJ",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62743",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134013!KF8tV1",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62744",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134143!DqfspK",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62874",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "08.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134144!hJR7X4",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62875",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "08.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134353!w9P0Hy",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63084",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134354!AdoYBz",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63085",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134396!JA1EAj",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63127",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134397!b5wQdz",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63128",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "09.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134513!S51Y0F",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63244",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "11.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134514!8wsIX2",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63245",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "11.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134702!wtK7gc",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63433",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "12.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134703!vLkpap",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63434",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "12.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134790!fB4KKe",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63521",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "12.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134791!4nprcB",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63522",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "12.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134878!EUt5YO",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63609",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134879!6r1x17",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63610",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134888!6NNfLf",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63619",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134889!u84xXw",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63620",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135050!jEzjGd",
+                  "title": "Søknad og CV - Barne- og ungdomsarbeider - st. ref. (5190777958)",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63781",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135051!UMaWJG",
+                  "title": "Svar på søknad - Barne- og ungdomsarbeider Åsgården Skole, Horten kommune - st. ref. 5190777958",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63782",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "13.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18237",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "07.10.2026",
+            "sakstype": "Rekruttering",
+            "saksbehandler": "Anette Bergly",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039471!vLVk2U": {
+    "fetchedAt": "2026-10-16T07:58:15.253450+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "13 / 187 - Ynglingeveien 42 - bestilling av vannmåler for rørleggere",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039471!vLVk2U",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133884!yxBu3W",
+                  "title": "13 / 187 - Ynglingeveien 42 - bestilling av vannmåler for rørleggere",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62615",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "CAVERION NORGE AS",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18215",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "07.10.2026",
+            "sakstype": "Vannmåler",
+            "saksbehandler": "Andre Eide",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039497!eVrGEN": {
+    "fetchedAt": "2026-10-16T07:58:15.253450+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "13/209 - Fogdeveien 48 - fjerning eller sanering av nedgravde oljetanker",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039497!eVrGEN",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (2)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100133977!8XW4jo",
+                  "title": "Fjerning eller sanering av nedgravde oljetanker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62708",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Avsender",
+                          "text": "KARI SEM TOLLERØD",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100134003!WkcD9z",
+                  "title": "Fjerning eller sanering av nedgravde oljetanker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/62734",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "07.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Mottaker",
+                          "text": "KARI SEM TOLLERØD",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18241",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "07.10.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Fredrik Vikse",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
   }
 }
