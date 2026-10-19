@@ -53489,5 +53489,4630 @@
         }
       ]
     }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039952!LPKYEN": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039952!LPKYEN",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135521!3OmzIF",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64252",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18696",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039748!9C4DcM": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039748!9C4DcM",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135315!GmLZE9",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64046",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18492",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039955!vgLPm9": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039955!vgLPm9",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135524!E0Qjxk",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64255",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18699",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039838!CHBP79": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039838!CHBP79",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135404!vXQ4T6",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64135",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18582",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039953!vlXfAj": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039953!vlXfAj",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135522!DoM4d4",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64253",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18697",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039990!Li0hHC": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039990!Li0hHC",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135558!mfFD05",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64289",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18734",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040156!KOyFCf": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040156!KOyFCf",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135260!s22dWf",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63991",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18900",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040022!GKVFjH": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040022!GKVFjH",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135590!VQy0oV",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64321",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18766",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040097!2SrwVg": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040097!2SrwVg",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135201!yrYnbF",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63932",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18841",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039831!gdFPcw": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039831!gdFPcw",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135397!rrfCiQ",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64128",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18575",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039745!VuKEKa": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039745!VuKEKa",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135312!Hb8g38",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64043",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18489",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039741!INGxr4": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039741!INGxr4",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135308!YdOGWD",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64039",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18485",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039868!UZpOrK": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039868!UZpOrK",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135434!9kKx8z",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64165",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18612",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039874!NVHFaF": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039874!NVHFaF",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135440!r4rVx2",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64171",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18618",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040037!tVNRby": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040037!tVNRby",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135604!ysuhDk",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64335",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18781",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039969!sQcM87": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039969!sQcM87",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135538!oixEf6",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64269",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18713",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040105!xQBmia": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040105!xQBmia",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135209!xevj86",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63940",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18849",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039926!2tFqa7": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039926!2tFqa7",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135494!8EXS3F",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64225",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18670",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039836!8veCg7": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039836!8veCg7",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135402!gfvykU",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64133",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18580",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040015!qX8r4M": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040015!qX8r4M",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135583!6Jsssx",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64314",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18759",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039757!uEsdR4": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039757!uEsdR4",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135325!XqBA3M",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64056",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18501",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039801!AsT1IE": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039801!AsT1IE",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135367!hn6XHj",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64098",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18545",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039721!wKYdaF": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039721!wKYdaF",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135288!LOPmE4",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64019",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18465",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040150!jawk8E": {
+    "fetchedAt": "2026-10-19T09:55:21.295222+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040150!jawk8E",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135254!vWGFBa",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63985",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18894",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040153!xlEKEl": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040153!xlEKEl",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135257!XVswcy",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63988",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18897",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040047!KJi0Db": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040047!KJi0Db",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135614!hqmM4T",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64345",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18791",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040135!V1bjHT": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040135!V1bjHT",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135238!VZUso3",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63969",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18879",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040034!XujX7V": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040034!XujX7V",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135602!jo28BB",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64333",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18778",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039804!BrW9To": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039804!BrW9To",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135369!iqKE8l",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64100",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18548",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039821!5FDFXi": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039821!5FDFXi",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135386!Uj01iN",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64117",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18565",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039880!ujsHtM": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039880!ujsHtM",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135447!MgrJeW",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64178",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18624",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039698!ImLe1f": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039698!ImLe1f",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135264!guuGae",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63995",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18442",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039958!kcJAtb": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039958!kcJAtb",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135527!Yzlovc",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64258",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18702",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039841!F2idWS": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039841!F2idWS",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135407!8eWCCP",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64138",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18585",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039882!rvdwnF": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039882!rvdwnF",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135449!59CxXF",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64180",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18626",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039858!mYuKSd": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Eiendomsskatt 2027",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039858!mYuKSd",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135424!bKbaH0",
+                  "title": "Informasjon om taksering på næring 2027",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/64155",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Utgående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "U",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18602",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Eiendomsskatt",
+            "saksbehandler": "Kai André Thon Kristiansen",
+            "status": "Avsluttet"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039687!FJwrep": {
+    "fetchedAt": "2026-10-19T09:56:23.350249+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Transporttilbud TT-ordningen",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100039687!FJwrep",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100135098!isWLqB",
+                  "title": "Transporttilbud TT-ordningen - søknad",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/63829",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "14.10.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Inngående dokument",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "I",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_CONFIDENTIAL",
+                      "title": "true",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "CASE_CONFIDENTIAL_TEXT",
+              "text": "Denne saken er ikke offentlig på grunn av § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1 Offl. § 13 1. ledd, jf. fvl. § 13 1. ledd nr. 1. Du kan likevel bestille dokumentene i saken, så vurderer vi om det er grunnlag for å gi deg innsyn.",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/18431",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "14.10.2026",
+            "sakstype": "Søknad om TT kort",
+            "saksbehandler": "Linda L. Solem",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
   }
 }
