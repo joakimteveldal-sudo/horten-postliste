@@ -82403,5 +82403,755 @@
         }
       ]
     }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040868!jDwm2g": {
+    "fetchedAt": "2026-11-06T12:08:01.091030+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Hovedutvalg for bygg, regulering og næring - 17.11.2026",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040868!jDwm2g",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (4)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140021!MOda2a",
+                  "title": "Godkjenning av møteprotokoll",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68752",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140022!TsTyWq",
+                  "title": "Referatsaker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68753",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140023!BBKEJk",
+                  "title": "Delegasjonssaker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68754",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140026!mUNAiM",
+                  "title": "Innkalling - Hovedutvalg for bygg, regulering og næring - 17.11.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68757",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Sakskart",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/19612",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "04.11.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Ritha Bye",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040863!5fRxet": {
+    "fetchedAt": "2026-11-06T12:08:01.091030+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Råd for personer med funksjonsnedsettelse - 10.11.2026",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040863!5fRxet",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (3)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140007!9sUGJc",
+                  "title": "Godkjenning av møteprotokoll",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68738",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140008!5G000s",
+                  "title": "Referatsaker",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68739",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140009!yAAU6D",
+                  "title": "Innkalling - Råd for personer med funksjonsnedsettelse - 10.11.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68740",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Sakskart",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/19607",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "04.11.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Ritha Bye",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040849!HOCXlr": {
+    "fetchedAt": "2026-11-06T12:08:01.091030+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Valgstyret - 24.11.2026",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040849!HOCXlr",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (1)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100139968!1wzb0u",
+                  "title": "Innkalling - Valgstyret - 24.11.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68699",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Sakskart",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/19593",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "04.11.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Ritha Bye",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
+  },
+  "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040867!pEisP5": {
+    "fetchedAt": "2026-11-06T12:08:01.091030+00:00",
+    "payload": {
+      "content": {
+        "body": {
+          "title": "Administrasjonsutvalget - 17.11.2026",
+          "subtitle": "",
+          "identifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040867!pEisP5",
+          "b": [
+            {
+              "key": "DOCUMENTS",
+              "title": "Publiserte dokumenter (2)",
+              "expandable": false,
+              "indent": false,
+              "type": "DocumentList",
+              "b": [
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140019!x1SkAy",
+                  "title": "Godkjenning av møteprotokoll",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68750",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Saksframlegg",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "S",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                },
+                {
+                  "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100140020!QmcGel",
+                  "title": "Innkalling - Administrasjonsutvalget - 17.11.2026",
+                  "expandable": false,
+                  "indent": false,
+                  "type": "AsyncDocument",
+                  "b": [
+                    {
+                      "expandable": false,
+                      "indent": false,
+                      "type": "PropertyList",
+                      "b": [
+                        {
+                          "title": "DokumentID",
+                          "text": "2026/68751",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dato",
+                          "text": "04.11.2026",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        },
+                        {
+                          "title": "Dokumenttype",
+                          "text": "Sakskart",
+                          "expandable": false,
+                          "indent": false,
+                          "type": "Property"
+                        }
+                      ]
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    },
+                    {
+                      "key": "DOCUMENT_TYPE_CODE",
+                      "title": "SK",
+                      "expandable": false,
+                      "indent": false,
+                      "type": "Metadata"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "FRIENDLY_ID",
+              "title": "2026/19611",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "ITEM_TYPE",
+              "title": "CASE_TYPE_CASE",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            },
+            {
+              "key": "CASE_TYPE",
+              "title": "Arkivsak",
+              "text": "Arkivsak",
+              "expandable": false,
+              "indent": false,
+              "type": "Metadata"
+            }
+          ],
+          "props": {
+            "dato": "04.11.2026",
+            "sakstype": "Generell sak",
+            "saksbehandler": "Ritha Bye",
+            "status": "Under behandling"
+          }
+        },
+        "status": 1,
+        "messages": [],
+        "errorCode": null
+      },
+      "statusCode": 200,
+      "messages": [
+        {
+          "text": "Det gikk fint."
+        }
+      ]
+    }
   }
 }
