@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "identifier": "d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100141001!l4Il3K",
+    "parentIdentifier": "a-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100040211!1uzPUE",
+    "title": "Innkalling til intervju - Rektor Grunnskole, Horten kommune - st. ref. 5195560010",
+    "type": "Utgående dokument",
+    "status": "J",
+    "visibility": "3",
+    "date": "09.11.2026",
+    "isoDate": "2026-11-09",
+    "caseNumber": null,
+    "documentID": "2026/69732",
+    "documentType": "Dokument",
+    "sender": null,
+    "navigateUrl": "https://www.horten.kommune.no/#",
+    "detailsUrl": "/document?id=d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100141001!l4Il3K",
+    "canResolveDocumentDirectly": true,
+    "documentLookupUrl": "/document?id=d-ab97bcf8__a0c4__4689__b236__9b89dcb06f7a-1100141001!l4Il3K",
+    "pdfStatus": "not_checked",
+    "pdfAvailable": null,
+    "pdfUrl": null,
+    "firstSeenAt": "2026-11-25T14:24:16.231708+00:00",
+    "queueStatus": "pending_after_error",
+    "lastAttemptAt": "2026-11-25T14:26:59.293981+00:00",
+    "priorityScore": -4,
+    "caseLookupAttempted": false,
+    "caseLookupStatus": "not_applicable",
+    "case": null,
+    "documents": [],
+    "documentLookupAttempted": true,
+    "documentLookupStatus": "not_applicable",
+    "lastError": "HTTP Error 500: Internal Server Error"
+  }
+]
